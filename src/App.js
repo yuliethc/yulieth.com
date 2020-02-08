@@ -1,14 +1,13 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import { BrowserRouter, Route } from "react-router-dom";
+import Landing from "./Pages/Landing";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-       
-      </header>
-    </div>
+    <BrowserRouter>
+      <Route path="/" component={Landing}></Route>
+    </BrowserRouter>
   );
 }
 
