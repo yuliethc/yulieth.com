@@ -10,24 +10,25 @@ class Landing extends Component {
     return (
       <>
         <div className="landing__container">
-          <div className="landing__first">
-            <div className="landing__hello">
+          <header className="landing__first">
+            <section className="landing__hello">
               <span>Hello! I'm Yulieth</span>
-            </div>
-            <div className="landing__activities">
+            </section>
+            <section className="landing__activities">
               <span>Full Stack Developer</span>
-            </div>
-          </div>
+            </section>
+          </header>
           <div className="landing__footer-container">
-            <div className="landing__second">
+            <main className="landing__second">
               <a>Learn more</a>
-              <a href = {ResumeEN} target = "_blank">Just Resume</a>
-            </div>
-            <div className="landing__footer">
+              {/* <a href = {ResumeEN} target = "_blank">Just Resume</a> */}
+              <a href = {"/#"} target = "_blank">Just Resume</a>
+            </main>
+            <footer className="landing__footer">
              <img src={Github} alt=""with="30" height="28"/>
              <img src={Linkedin} alt=""with="30" height="28"/>
              <img src={Instagram} alt=""with="30" height="28"/>
-            </div>
+            </footer>
           </div>
         </div>
       </>

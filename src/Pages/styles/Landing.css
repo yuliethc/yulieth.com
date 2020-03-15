@@ -1,4 +1,7 @@
-
+:root {
+  --main-color: #ff6688;
+  
+}
 .landing__container{
     display: flex;
     flex-direction: column;
@@ -7,7 +10,7 @@
 .landing__container .landing__first {
   width: 100%;
   height: 100%;
-  background-color: #ff6688;
+  background-color: var(--main-color);
   color: #ffffff;
   display: flex;
   flex-direction: column;
@@ -18,7 +21,7 @@
 
 .landing__container .landing__first .landing__hello {
   flex-grow: 1;
-  color: white;
+  color: #803344;
   margin-top: 25%;
 }
 
@@ -28,7 +31,7 @@
 }
 .landing__container .landing__first .landing__activities {
   flex-grow: 1;
-  color: white;
+  color: #803344;
   margin-top: 10px;
   padding-bottom: 20px;;
 }
