@@ -3,7 +3,7 @@ import "./styles/Landing.css";
 import Github from "../src/img/github.png"
 import Linkedin from "../src/img/linkedin.png"
 import Instagram from "../src/img/instagram.png"
-import ResumeEN from "../src/pdf/resumeEN.pdf"
+// import ResumeEN from "../src/pdf/resumeEN.pdf"
 
 class Landing extends Component {
   render() {
