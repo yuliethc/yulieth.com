@@ -24,6 +24,8 @@
   flex-grow: 1;
   color: var(--white);
   margin-top: 25%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .landing__container .landing__first .landing__hello span {
@@ -90,9 +92,9 @@ padding: 10px;
   /* margin: 10px 5px */
 }
 
-.landing__footer > :nth-child(3) {
+/* .landing__footer > :nth-child(3) {
   margin-right: 30px;
-}
+} */
 
 .landing__footer a {
   display: flex;
@@ -110,4 +112,10 @@ background-color: var(--main-color);
 
 .landing__footer a:hover img, .landing__footer a:focus img{
   filter:brightness(4)
+}
+
+#about__me{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
 }

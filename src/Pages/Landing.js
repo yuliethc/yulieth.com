@@ -20,8 +20,9 @@ class Landing extends Component {
           </header>
           <div className="landing__footer-container">
             <main className="landing__second">
-              <a>Learn more</a>
-              <a href={ResumeEN} target="_blank" tabIndex="1" autofocus="true" >
+              <a href="#about__me">Learn more</a>
+
+              <a href={ResumeEN} target="_blank" tabIndex="1" autofocus="true">
                 See Resume
               </a>
               {/* <a href = {"/#"} target = "_blank">Just Resume</a> */}
@@ -29,7 +30,6 @@ class Landing extends Component {
             <footer className="landing__footer">
               <a href="https://github.com/yuliethc">
                 Github
-               
                 <img src={Github} alt="Github" with="30" height="28" />
               </a>
               <a href="https://www.linkedin.com/in/yulieth/">
@@ -43,6 +43,7 @@ class Landing extends Component {
             </footer>
           </div>
         </div>
+        <div id="about__me">about me</div>
       </>
     );
   }
