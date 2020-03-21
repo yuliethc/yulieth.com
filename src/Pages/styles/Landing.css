@@ -64,11 +64,11 @@ text-decoration: none;
 padding: 10px;
 }
 
-.landing__second a:hover,a:focus{
+.landing__second a:hover, .landing__second a:focus{
   color: var(--white);
-text-decoration: none;
-outline: 3px solid var(--main-color);
-background-color: var(--main-color);
+  text-decoration: none;
+  outline: 3px solid var(--main-color);
+  background-color: var(--main-color);
 }
 
 .landing__second > :nth-child(1) {
@@ -101,7 +101,13 @@ background-color: var(--main-color);
   text-decoration: none;
   margin-right: 15px;
 }
-.landing__footer a:hover, a:focus {
-  outline: 3px solid var(--main-color); 
-  text-decoration: none;
+.landing__footer a:hover, .landing__footer a:focus {
+ color: var(--white);
+text-decoration: none;
+outline: 3px solid var(--main-color);
+background-color: var(--main-color);
+}
+
+.landing__footer a:hover img, .landing__footer a:focus img{
+  filter:brightness(4)
 }
