@@ -21,8 +21,8 @@ class Landing extends Component {
           <div className="landing__footer-container">
             <main className="landing__second">
               <a>Learn more</a>
-              <a href={ResumeEN} target="_blank">
-                Just Resume
+              <a href={ResumeEN} target="_blank" tabIndex="1" autofocus="true" >
+                See Resume
               </a>
               {/* <a href = {"/#"} target = "_blank">Just Resume</a> */}
             </main>
