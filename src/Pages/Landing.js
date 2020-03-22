@@ -4,9 +4,12 @@ import Github from "../src/img/github.png";
 import Linkedin from "../src/img/linkedin.png";
 import Instagram from "../src/img/instagram.png";
 import ResumeEN from "../src/pdf/resumeEN.pdf";
+import Menu from "../Components/Navbar";
 
 class Landing extends Component {
+
   render() {
+    // let MenuActive = "about__me"
     return (
       <>
         <div className="landing__container">
@@ -20,30 +23,36 @@ class Landing extends Component {
           </header>
           <div className="landing__footer-container">
             <main className="landing__second">
-              <a href="#about__me">Learn more</a>
-
+              <a href="#content__container">Learn more</a>
               <a href={ResumeEN} target="_blank" tabIndex="1" autofocus="true">
                 See Resume
               </a>
-              {/* <a href = {"/#"} target = "_blank">Just Resume</a> */}
             </main>
             <footer className="landing__footer">
               <a href="https://github.com/yuliethc">
-                Github
+                <span>Github</span>
                 <img src={Github} alt="Github" with="30" height="28" />
               </a>
               <a href="https://www.linkedin.com/in/yulieth/">
-                LinkeIn
+                <span>LinkeIn</span>
                 <img src={Linkedin} alt="Linkedin" with="30" height="28" />
               </a>
               <a href="https://www.instagram.com/yuliethdotcom/">
-                Instagram
+                <span>Instagram</span>
                 <img src={Instagram} alt="Instagram" with="30" height="28" />
               </a>
             </footer>
           </div>
         </div>
-        <div id="about__me">about me</div>
+        <div id="content__container">
+          <Menu
+          // MenuActive={MenuActive}
+          ></Menu>
+          <div id="about__me">
+            <span>About me</span>
+          </div>
+          <div id="projects">Projects</div>
+        </div>
       </>
     );
   }

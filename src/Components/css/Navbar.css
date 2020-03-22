@@ -1,0 +1,14 @@
+.nav__link{
+    border-bottom: 5px solid var(--secondary-color); ;
+}
+
+.nav__link:hover, .nav__link:focus{
+    border-bottom: 5px solid var(--main-color) !important;
+    outline: none;
+}
+.active__link {
+    border-bottom: 5px solid var(--main-color) !important;
+    outline: none;
+}
+
+
