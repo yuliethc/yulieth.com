@@ -2,7 +2,9 @@
   --main-color: #b12a5b;
   --white: #ffffff;
   --black: black;
-  --secondary-color:#FC88B3
+  --secondary-color:#FC88B3;
+  --font-primary: "Roboto Condensed", sans-serif;
+  --font-secondary: 'IBM Plex Mono', monospace;
 }
 .landing__container {
   display: flex;
@@ -30,7 +32,7 @@
 }
 
 .landing__container .landing__first .landing__hello span {
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: var(--font-primary);
   font-size: 70px;
 }
 .landing__container .landing__first .landing__activities {
@@ -59,6 +61,7 @@
   align-items: center;
   display: flex;
   justify-content: center;
+  font-family:  var(--font-secondary);
 }
 
 .landing__second a{
@@ -85,7 +88,8 @@ padding: 10px;
   justify-content: flex-end;
   align-self: flex-end;
   padding-bottom: 20px;
-  text-decoration: none;
+  text-decoration: none;  
+  font-family:  var(--font-secondary);
  
 }
 .landing__footer img {
@@ -122,7 +126,8 @@ background-color: var(--main-color);
 
 #content__container{
   display: flex;
-  flex-direction: column;
+  flex-direction: column;  
+  font-family:  var(--font-secondary);
 
 }
 #about__me{
@@ -130,7 +135,23 @@ background-color: var(--main-color);
   flex-direction: column;
  height: calc(100vh - 5px);
 }
-#projects{
+#portfolio{
+  display: flex;
+  flex-direction: column;
+height: calc(100vh - 5px);
+}
+
+#achievements{
+  display: flex;
+  flex-direction: column;
+height: calc(100vh - 5px);
+}
+#contacts{
+  display: flex;
+  flex-direction: column;
+height: calc(100vh - 5px);
+}
+#blog{
   display: flex;
   flex-direction: column;
 height: calc(100vh - 5px);

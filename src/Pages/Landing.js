@@ -5,6 +5,11 @@ import Linkedin from "../src/img/linkedin.png";
 import Instagram from "../src/img/instagram.png";
 import ResumeEN from "../src/pdf/resumeEN.pdf";
 import Menu from "../Components/Navbar";
+import AboutMe from "./AboutMe";
+import Portfolio from "./Portfolio";
+import Achievements from "./Achievements";
+import Blog from "./Blog";
+import Contacts from "./Contacts";
 
 class Landing extends Component {
 
@@ -49,9 +54,18 @@ class Landing extends Component {
           // MenuActive={MenuActive}
           ></Menu>
           <div id="about__me">
-            <span>About me</span>
+            <AboutMe></AboutMe>
           </div>
-          <div id="projects">Projects</div>
+          <div id="portfolio"> <Portfolio></Portfolio></div>
+          <div id="achievements">
+           <Achievements></Achievements>
+          </div>  
+          <div id="blog">
+           <Blog></Blog>
+          </div>
+          <div id="contacts">
+            <Contacts></Contacts>
+          </div>
         </div>
       </>
     );

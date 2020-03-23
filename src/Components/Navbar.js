@@ -4,24 +4,65 @@ import { Navbar, Nav } from "react-bootstrap";
 import { useState } from "react";
 
 const Menu = () => {
+  const [MenuActivo, setMenuActivo] = useState("about__me");
 
-    const [MenuActivo, setMenuActivo] = useState("about__me")
-
-    return (
-        <Navbar sticky="top">
-          <li>
-              <ul>
-                  <a className={MenuActivo ==="about__me"?("active__link"):("nav__link")} href="#about__me"
-            onClick={()=> setMenuActivo("about__me")}>About me</a>
-              </ul>
-              <ul>
-                  <a className={MenuActivo ==="projects"?("active__link"):("nav__link")} value="projects" href="#projects"
-            onClick={()=> setMenuActivo("projects")}
-            >Projects</a>
-              </ul>
-          </li>                 
-        </Navbar>
-      );
+  return (
+    <Navbar className="navbar__container" sticky="top">
+      <ul>
+        <li>
+          <a
+            className={
+              MenuActivo === "about__me" ? "active__link" : "nav__link"
+            }
+            href="#about__me"
+            onClick={() => setMenuActivo("about__me")}
+          >
+            About me
+          </a>
+        </li>
+        <li>
+          <a
+            className={MenuActivo === "portfolio" ? "active__link" : "nav__link"}
+            value="portfolio"
+            href="#portfolio"
+            onClick={() => setMenuActivo("portfolio")}
+          >
+            Portfolio
+          </a>
+        </li>
+        <li>
+          <a
+            className={MenuActivo === "achievements" ? "active__link" : "nav__link"}
+            value="achievements"
+            href="#achievements"
+            onClick={() => setMenuActivo("achievements")}
+          >
+            Achievements
+          </a>
+        </li>
+        <li>
+          <a
+            className={MenuActivo === "blog" ? "active__link" : "nav__link"}
+            value="blog"
+            href="#blog"
+            onClick={() => setMenuActivo("blog")}
+          >
+            Blog
+          </a>
+        </li>
+        <li>
+          <a
+            className={MenuActivo === "contacts" ? "active__link" : "nav__link"}
+            value="contacts"
+            href="#contacts"
+            onClick={() => setMenuActivo("contacts")}
+          >
+           Talk with me
+          </a>
+        </li>
+      </ul>
+    </Navbar>
+  );
 };
 
 export default Menu;
