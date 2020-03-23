@@ -139,22 +139,18 @@ background-color: var(--main-color);
 #portfolio{
   display: flex;
   flex-direction: column;
-height: calc(100vh - 30px);
 
 }
 
 #achievements{
   display: flex;
   flex-direction: column;
-height: calc(100vh - 30px);
 }
 #contacts{
   display: flex;
   flex-direction: column;
-height: calc(100vh - 20px);
 }
 #blog{
   display: flex;
   flex-direction: column;
-height: calc(100vh - 30px);
 }

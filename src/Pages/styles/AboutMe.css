@@ -2,5 +2,17 @@
     display: flex;
   flex-direction: column;
  height: calc(100vh - 30px);
-  margin-top: 80px;
+  margin-top: 50px;
+}
+.about__me .about__me_principal{
+display: flex;
+justify-content: flex-start;
+}
+
+.about__me .about__me_principal .about__me_imagen-container {
+   margin: 5%;
+}
+.about__me .about__me_principal .about__me_imagen-container img{
+    height: 500px;
+    width: 450px;
 }
