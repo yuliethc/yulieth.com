@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-
+import "./styles/Blog.css"
 class Blog extends Component {
     render() {
         return (
-            <div>
+            <div className="blog">
                 Blog
             </div>
         );

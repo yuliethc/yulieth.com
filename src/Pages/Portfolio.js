@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
+import "./styles/Portfolio.css"
 
 class Portfolio extends Component {
     render() {
         return (
-            <div>
+            <div className="portfolio">
                 Portfolio
             </div>
         );
