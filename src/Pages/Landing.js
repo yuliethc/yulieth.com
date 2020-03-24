@@ -37,8 +37,8 @@ class Landing extends Component {
                 <img src={Linkedin} alt="Linkedin" with="30" height="28" />
               </a>
               <a href="https://www.instagram.com/yuliethdotcom/">
-                Instagram
-                <img src={Instagram} alt="Instagram" with="30" height="28" />
+                <span>Instagram</span>
+                <img src={Instagram} alt="Instagram" with="40" height="38" />
               </a>
             </footer>
           </div>
