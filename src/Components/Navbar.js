@@ -7,8 +7,8 @@ const Menu = () => {
   const [MenuActivo, setMenuActivo] = useState("about__me");
 
   return (
-    <Navbar className="navbar__container" sticky="top">
-      <ul>
+    <Navbar sticky="top">
+      <ul className="navbar__container" >
         <li>
           <a
             className={
