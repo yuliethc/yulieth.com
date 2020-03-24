@@ -7,12 +7,17 @@
 .about__me .about__me_principal{
 display: flex;
 justify-content: flex-start;
+flex-wrap: wrap;
 }
 
 .about__me .about__me_principal .about__me_imagen-container {
-   margin: 5%;
+   margin: 1%;
 }
 .about__me .about__me_principal .about__me_imagen-container img{
-    height: 500px;
-    width: 450px;
+    height: 350px;
+    width: 350px;
+    border-radius: 0 50% 50% 50%;
+}
+.about__me_text--container h3{
+    font-family: var(--font-primary);
 }

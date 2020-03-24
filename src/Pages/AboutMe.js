@@ -11,8 +11,11 @@ class AboutMe extends Component {
                     <div className="about__me_imagen-container">
                         <img src={me} alt=""/>
                     </div>
-                    <div>
-                    Get to know me
+                    <div className="about__me_text--container">
+                        <h2>I'm Yulieth Lubo de D'Agostini</h2>
+                    <span>
+                    
+                        </span> 
                     </div>
                 </div>
             </div>
