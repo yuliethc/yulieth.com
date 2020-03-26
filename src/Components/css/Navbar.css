@@ -1,6 +1,7 @@
 .navbar__container{
     display: flex important!;
-    justify-content: center important!;  
+    justify-content: center important!; 
+    font-family: var(--font-secondary); 
 }
 .navbar__container ul{   
    display: flex;

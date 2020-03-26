@@ -39,7 +39,8 @@
   flex-grow: 1;
   color: var(--white);
   margin-top: 10px;
-  padding-bottom: 20px;
+  padding-bottom: 20px;  
+  font-family: var(--font-primary);
 }
 
 .landing__container .landing__first .landing__activities span {

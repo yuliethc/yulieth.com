@@ -34,17 +34,17 @@ class Landing extends Component {
               </a>
             </main>
             <footer className="landing__footer">
-              <a href="https://github.com/yuliethc">
+              <a href="https://github.com/yuliethc" target="_blank">
                 <span>Github</span>
-                <img src={Github} alt="Github" with="30" height="28" />
+                <img src={Github}  alt="Github" with="30" height="28" />
               </a>
-              <a href="https://www.linkedin.com/in/yulieth/">
+              <a href="https://www.linkedin.com/in/yulieth/" target="_blank">
                 <span>LinkeIn</span>
-                <img src={Linkedin} alt="Linkedin" with="30" height="28" />
+                <img src={Linkedin}  alt="Linkedin" with="30" height="28" />
               </a>
-              <a href="https://www.instagram.com/yuliethdotcom/">
+              <a href="https://www.instagram.com/yuliethdotcom/" target="_blank">
                 <span>Instagram</span>
-                <img src={Instagram} alt="Instagram" with="40" height="38" />
+                <img src={Instagram}  alt="Instagram" with="40" height="38" />
               </a>
             </footer>
           </div>
