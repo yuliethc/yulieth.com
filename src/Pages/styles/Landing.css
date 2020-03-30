@@ -65,23 +65,40 @@
   font-family:  var(--font-secondary);
 }
 
-.landing__second a{
+.landing__second .landing__second-more{
   color: var(--black);
 text-decoration: none;
 padding: 10px;
 }
 
-.landing__second a:hover, .landing__second a:focus{
+.landing__second .landing__second-more:hover, .landing__second .landing__second-more:focus{
   color: var(--white);
   text-decoration: none;
   outline: 3px solid var(--main-color);
   background-color: var(--main-color);
 }
+.landing__second .landing__second-resume{
+  color: var(--white);
+  text-decoration: none;
+  outline: 3px solid var(--main-color);
+  background-color: var(--main-color); 
+  padding: 10px;
+}
 
-.landing__second > :nth-child(1) {
+.landing__second .landing__second-resume:hover,.landing__second .landing__second-resume:active{
+ 
+  text-decoration: none;
+  outline:none;
+  background-color: var(--main-color); 
+  box-shadow: 1px 1px var(--main-color);
+  padding: 10px;
+}
+
+.landing__second > :nth-child(2) {
   border-right: 2px ridge var(--main-color);
   margin-right: 10px;
   padding-right: 10px;
+  height: 100%;
 }
 
 .landing__footer {
