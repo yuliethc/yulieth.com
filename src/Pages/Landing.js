@@ -20,26 +20,34 @@ class Landing extends Component {
           </header>
           <div className="landing__footer-container">
             <main className="landing__second">
-              <a className="landing__second-more" href="#content__container">More</a>
-              <div>
-
-              </div>
-              <a className="landing__second-resume" href={ResumeEN} target="_blank" tabIndex="1" autofocus="true">
+              <a className="landing__second-more" href="#content__container">
+                More
+              </a>
+              <div></div>
+              <a
+                className="landing__second-resume"
+                href={ResumeEN}
+                target="_blank"
+                tabIndex="1"
+                autofocus="true"
+              >
                 CV
               </a>
               {/* <a href = {"/#"} target = "_blank">Just Resume</a> */}
             </main>
             <footer className="landing__footer">
-              <a href="https://github.com/yuliethc">
+              <a href="https://github.com/yuliethc" target="_blank">
                 Github
-               
                 <img src={Github} alt="Github" with="30" height="28" />
               </a>
-              <a href="https://www.linkedin.com/in/yulieth/">
+              <a href="https://www.linkedin.com/in/yulieth/" target="_blank">
                 LinkeIn
                 <img src={Linkedin} alt="Linkedin" with="30" height="28" />
               </a>
-              <a href="https://www.instagram.com/yuliethdotcom/">
+              <a
+                href="https://www.instagram.com/yuliethdotcom/"
+                target="_blank"
+              >
                 <span>Instagram</span>
                 <img src={Instagram} alt="Instagram" with="40" height="38" />
               </a>
