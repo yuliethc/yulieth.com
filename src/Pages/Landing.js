@@ -15,7 +15,7 @@ class Landing extends Component {
               <span>Hello! I'm Yulieth</span>
             </section>
             <section className="landing__activities">
-              <span>Full Stack Developer</span>
+              <span>Front-End Developer</span>
             </section>
           </header>
           <div className="landing__footer-container">
@@ -25,7 +25,7 @@ class Landing extends Component {
 
               </div>
               <a className="landing__second-resume" href={ResumeEN} target="_blank" tabIndex="1" autofocus="true">
-                Resume
+                CV
               </a>
               {/* <a href = {"/#"} target = "_blank">Just Resume</a> */}
             </main>
