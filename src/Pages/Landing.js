@@ -20,7 +20,7 @@ class Landing extends Component {
           </header>
           <div className="landing__footer-container">
             <main className="landing__second">
-              <a className="landing__second-more" href="#content__container">
+              <a className="landing__second-more" href="https://yulieth.myportfolio.com/">
                 More
               </a>
               <div></div>
