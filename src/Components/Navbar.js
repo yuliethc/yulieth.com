@@ -7,8 +7,8 @@ const Menu = () => {
   const [MenuActivo, setMenuActivo] = useState("about__me");
 
   return (
-    <Navbar sticky="top">
-      <ul className="navbar__container" >
+    <Navbar sticky="top" className="navbar__container">
+      <ul  >
         <li>
           <a
             className={
@@ -30,7 +30,7 @@ const Menu = () => {
             Portfolio
           </a>
         </li>
-        <li>
+        {/* <li>
           <a
             className={MenuActivo === "achievements" ? "active__link" : "nav__link"}
             value="achievements"
@@ -59,7 +59,7 @@ const Menu = () => {
           >
            Talk with me
           </a>
-        </li>
+        </li> */}
       </ul>
     </Navbar>
   );
