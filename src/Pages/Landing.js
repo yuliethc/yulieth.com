@@ -60,7 +60,7 @@ class Landing extends Component {
             <AboutMe></AboutMe>
           </div>
           <div id="portfolio"> <Portfolio></Portfolio></div>
-          <div id="achievements">
+          {/* <div id="achievements">
            <Achievements></Achievements>
           </div>  
           <div id="blog">
@@ -68,7 +68,7 @@ class Landing extends Component {
           </div>
           <div id="contacts">
             <Contacts></Contacts>
-          </div>
+          </div> */}
         </div>
       </>
     );
