@@ -1,0 +1,13 @@
+.portfolio{
+    display: flex;
+    flex-direction: column;
+    /* height: calc(100vh - 30px); */
+    margin-top: 80px;
+}
+.work__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
