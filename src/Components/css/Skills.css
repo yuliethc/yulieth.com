@@ -7,13 +7,13 @@
   font-size: 13px;
   font-weight: 500;
   line-height: 32px;
-  color: var(--white);
   cursor: pointer;
-  background-color: var(--main-color);
-  border-radius: 16px;
+  border-radius: 16px;   
+  color: var(--white);
+  background-color: var(--main-color);   
 }
-.skills__container:hover {
-  outline: none;  
-  padding-right: 15px;
-  padding-left: 15px;
+.skills__container:hover{   
+  background-color: var(--secondary-color);
+  
+  color: var(--black); 
 }
