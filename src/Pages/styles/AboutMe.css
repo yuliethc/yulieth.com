@@ -58,8 +58,8 @@ justify-content: center;
 }
 
 .about__me .about__me_principal .about__me_imagen-container img {
-  height: 150px;
-  width: 150px;
+  height: 200px;
+  width: 180px;
   border-radius: 0 50% 50% 50%;
   margin-left: 5%;
 }
