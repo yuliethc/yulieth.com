@@ -1,0 +1,19 @@
+.skills__container {
+  display: inline-block;
+  height: 32px;
+  padding: 0 12px;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 32px;
+  cursor: pointer;
+  border-radius: 16px;   
+  color: var(--white);
+  background-color: var(--main-color);   
+}
+.skills__container:hover{   
+  background-color: var(--secondary-color);
+  
+  color: var(--black); 
+}
