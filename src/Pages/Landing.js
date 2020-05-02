@@ -53,9 +53,9 @@ class Landing extends Component {
           </div>
         </div>
         <div id="content__container">
-          <Menu
+          {/* <Menu
           // MenuActive={MenuActive}
-          ></Menu>
+          ></Menu> */}
           <div id="about__me">
             <AboutMe></AboutMe>
           </div>

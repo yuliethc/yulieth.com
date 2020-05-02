@@ -151,7 +151,7 @@ background-color: var(--main-color);
 #about__me{
   display: flex;
   flex-direction: column;
- height: calc(100vh - 30px);
+ /* height: calc(100vh - 30px); */
 
 }
 #portfolio{

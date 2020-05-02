@@ -27,7 +27,7 @@ const Menu = () => {
             href="#portfolio"
             onClick={() => setMenuActivo("portfolio")}
           >
-            Portfolio
+            Work
           </a>
         </li>
         {/* <li>
