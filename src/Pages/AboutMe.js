@@ -30,14 +30,16 @@ class AboutMe extends Component {
                 database structure diagram, tables and functions to stored
                 procedures.
               </p>
-              <p>
+
+              {/* <p>
                 I am an autodidact, I believe in excellence and I have always
                 put all my values, skills and creativity to achieve any goal in
                 the best way possible, this is my greatest asset that allows me
                 to develop any task with high quality, always giving more than
                 expected, building trust and respect.
               </p>
-              <p>I'm ready to new challenges, looking for new opportunities.</p>
+              <p>I'm ready to new challenges, looking for new opportunities.</p> */}
+
             </div>
           </div>
         </div>
