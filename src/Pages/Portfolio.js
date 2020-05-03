@@ -7,6 +7,7 @@ import devProject3 from "./img/devProject3.jpg";
 import devProject4 from "./img/devProject4.jpg";
 import blogPost1 from "./img/blogPost1.jpg";
 import blogPost2 from "./img/blogPost2.jpg";
+import copyProject1 from "./img/copyProject1.jpg";
 
 class Portfolio extends Component {
   render() {
@@ -43,7 +44,7 @@ class Portfolio extends Component {
               </a>
             </li>
 
-            {/* <li className="nav-item">
+            <li className="nav-item">
               <a
                 className=" portfolio___tabs"
                 id="work__container-copy-tab"
@@ -55,7 +56,7 @@ class Portfolio extends Component {
               >
                 Copywriting
               </a>
-            </li> */}
+            </li>
 
             <li className="nav-item">
               <a
@@ -156,11 +157,14 @@ class Portfolio extends Component {
               <h4>Copywriting</h4>
               <section className="work__container">
                 <Project
-                  TituloWeb="Visit Site"
-                  // Image={}
-                  Title="Proyecto 1"
-                  Content="blah blah blah"
-                  Web="www.yulieth.com"
+                  TituloWeb="Visit Project"
+                  Image={copyProject1}
+                  Title="Cupcake World Mobile App Landing Page"
+                  Content="Mobile UI design and copywriting"
+                  Web="https://www.behance.net/gallery/96469701/Cupcake-World-Mobile-App-Landing-Page"
+                  TecnologiaUsada1="Marvel"
+                  TecnologiaUsada2="Copywriting"
+                  TecnologiaUsada3="UI & UX Design"
                 ></Project>              
               </section>
             </div>
