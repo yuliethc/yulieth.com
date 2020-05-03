@@ -7,7 +7,7 @@
 }
 .work__container{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     width: 100%;
     flex-wrap: wrap;
