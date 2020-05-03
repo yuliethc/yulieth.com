@@ -43,7 +43,7 @@ class Portfolio extends Component {
               </a>
             </li>
 
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <a
                 className=" portfolio___tabs"
                 id="work__container-copy-tab"
@@ -55,7 +55,7 @@ class Portfolio extends Component {
               >
                 Copywriting
               </a>
-            </li>
+            </li> */}
 
             <li className="nav-item">
               <a
