@@ -16,11 +16,11 @@ const Project = (props) => {
           alt="Project Image"
         />
       </div>
-      <a className="work__container-card-web" href={props.Web}>
+      <a className="work__container-card-web" href={props.Web} target="_blank">
       {props.TituloWeb}
       </a>
       <span className="work__container-card-title"> {props.Title}</span>
-      <span className="work__container-card-content">{props.Content}</span>
+      <p className="work__container-card-content">{props.Content}</p>
     </section>
   );
 };
