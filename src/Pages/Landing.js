@@ -33,7 +33,7 @@ class Landing extends Component {
 
               </div>
               <a className="landing__second-resume" href={ResumeEN} target="_blank" tabIndex="1" autofocus="true">
-                CV
+                Resume
               </a>
             </main>
             <footer className="landing__footer">
