@@ -8,13 +8,13 @@ class NewLanding extends Component {
            <>
            <Layout>
            <div
-          class="container d-flex flex-column align-items-center"
+          class="container d-flex flex-column align-items-center justify-content-end"
           data-aos="zoom-in"
           data-aos-delay="100"
         >
           <h1>Yulieth Lubo</h1>
           <h2>Front-End Developer</h2>
-          <a href="about.html" class="btn-about">
+          <a href="#" class="btn-about">
             About Me
           </a>
         </div>
