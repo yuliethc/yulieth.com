@@ -9,11 +9,10 @@
   line-height: 32px;
   cursor: pointer;
   border-radius: 16px;   
-  color: var(--white);
-  background-color: var(--main-color);   
+  color: white;
+  background-color: #b12a5b;   
 }
 .skills__container:hover{   
-  background-color: var(--secondary-color);
-  
-  color: var(--black); 
+  background-color: #7D1E41;  
+  color: white; 
 }

@@ -4,7 +4,7 @@ import Header from "./Header";
 const Layout = ({children}) => {
   return (
     <>
-      <Header></Header>
+      <Header Title={"Home"}></Header>
       <section id="hero" class="d-flex align-items-center" >
       {children}
       </section>
