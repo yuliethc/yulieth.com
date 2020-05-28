@@ -12,7 +12,7 @@ class NewLanding extends Component {
             data-aos="zoom-in"
             data-aos-delay="100"
           >
-            <h1>Yulieth Lubo</h1>
+            <h1>Yulieth Lubo de D'Agistini</h1>
             <h2>Front-End Developer</h2>
             <a href="/about" class="btn-about">
               About Me

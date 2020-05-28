@@ -22,7 +22,7 @@ const Header = (props) => {
             )}
             {props.Title === "About" ? (
               <li class="active">
-                <a href="/">About</a>
+                <a href="/about">About</a>
               </li>
             ) : (
               <li>
@@ -31,11 +31,11 @@ const Header = (props) => {
             )}
             {props.Title === "Resume" ? (
               <li class="active">
-                <a href="/">Resume</a>
+                <a href="/resume">Resume</a>
               </li>
             ) : (
               <li>
-                <a href="/">Resume</a>
+                <a href="/resume">Resume</a>
               </li>
             )}
             {props.Title === "Services" ? (
