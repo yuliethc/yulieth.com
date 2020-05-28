@@ -14,7 +14,7 @@ class NewLanding extends Component {
           >
             <h1>Yulieth Lubo</h1>
             <h2>Front-End Developer</h2>
-            <a href="#" class="btn-about">
+            <a href="/about" class="btn-about">
               About Me
             </a>
           </div>
