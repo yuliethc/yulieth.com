@@ -464,8 +464,8 @@ body {
   }
   
   #hero .btn-about:hover {
-    background: #b12a5b;
-    opacity: 0.5;
+    background: #7D1E41;
+    text-decoration: none;
   }
   
   @media (min-width: 1024px) {
