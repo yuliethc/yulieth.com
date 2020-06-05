@@ -75,10 +75,20 @@ const Resume = () => {
               </div>
               <div class="col-lg-6">
                 <h3 class="resume-title">Professional Experience</h3>
-
+                <div class="resume-item">
+                  <h4>Front-End Developer</h4>
+                  <h5> Apr. 2020 - Present</h5>
+                  <p>
+                    <em>Freelancer, Remote</em>
+                  </p>
+                  <p>
+                    I am working remotely as independent in different projects
+                    of web designing and development.
+                  </p>
+                </div>
                 <div class="resume-item">
                   <h4>Full Stack Developer</h4>
-                  <h5>2019 - Present</h5>
+                  <h5>Feb. 2019 - Present</h5>
                   <p>
                     <em>Escobedo Medina Auditores Asociados, Perú</em>
                   </p>
@@ -94,7 +104,7 @@ const Resume = () => {
 
                 <div class="resume-item">
                   <h4>Front-End Developer</h4>
-                  <h5>Mayo 2020</h5>
+                  <h5>May 2020</h5>
                   <p>
                     <em>Avalon, Remote</em>
                   </p>
@@ -102,7 +112,7 @@ const Resume = () => {
                     I worked remotely with Avalon team developing a
                     multi-platform app using Ionic-React and Material UI for
                     on-demand delivery, money transfer, business payments, and
-                    commercial services. There I created the modules: Login,
+                    commercial services. There I created: Login,
                     Sign Up, Password Recovery, User and Security.
                   </p>
                 </div>
