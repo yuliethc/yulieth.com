@@ -3,7 +3,6 @@ import Layout from "./components/Layout";
 import Header from "./components/Header";
 import "./vendor/icofont/icofont.min.css";
 import photo from "./img/photo.jpg";
-import Skills from "./../Components/Skills.js";
 import "../../src/Pages/styles/AboutMe.css";
 
 class About extends Component {
@@ -32,7 +31,7 @@ class About extends Component {
                   <p class="font-italic">
                     <p>
                       I’m a venezuelan around the world. I develop innovative
-                      and accessible applications.
+                      and accessible websites.
                     </p>
                   </p>
                   <div class="row">
@@ -82,26 +81,7 @@ class About extends Component {
             </div>
           </section>
 
-          <section id="skills" class="skills">
-            <div class="container" data-aos="fade-up">
-              <div class="section-title">
-                <h2>Skills</h2>
-              </div>
 
-              <div class="row justify-content-center">
-                <Skills Name="React JS"></Skills>
-                <Skills Name="HTML"></Skills>
-                <Skills Name="CSS"></Skills>
-                <Skills Name="UI/UX design"></Skills>
-                <Skills Name="Design Thinking"></Skills>
-                <Skills Name="Copywriting"></Skills>
-                <Skills Name="Web Accessibility"></Skills>
-                <Skills Name="Adobe XD"></Skills>
-                <Skills Name="Photoshop"></Skills>
-                <Skills Name="MySQL Database management"></Skills>
-              </div>
-            </div>
-          </section>
         </main>
         <div id="preloader"></div>
 

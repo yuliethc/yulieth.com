@@ -87,7 +87,7 @@ body {
     z-index: 99999;
   }
   
-  .back-to-top i {
+  .back-to-top svg {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -100,7 +100,7 @@ body {
     transition: all 0.4s;
   }
   
-  .back-to-top i:hover {
+  .back-to-top svg:hover {
     background: #7D1E41;
     color: #fff;
   }
@@ -837,7 +837,7 @@ body {
     position: relative;
   }
   
-  .services .icon-box .icon i {
+  .services .icon-box .icon svg {
     font-size: 36px;
     transition: 0.5s;
     position: relative;
@@ -851,7 +851,7 @@ body {
   
   .services .icon-box .icon svg path {
     transition: 0.5s;
-    fill: #f5f5f5;
+    fill: #BD6686;
   }
   
   .services .icon-box h4 {
@@ -871,11 +871,11 @@ body {
     margin-bottom: 0;
   }
   
-  .services .iconbox-blue i {
+  .services .iconbox-blue svg {
     color: #47aeff;
   }
   
-  .services .iconbox-blue:hover .icon i {
+  .services .iconbox-blue:hover .icon svg {
     color: #fff;
   }
   
@@ -883,11 +883,11 @@ body {
     fill: #47aeff;
   }
   
-  .services .iconbox-orange i {
+  .services .iconbox-orange svg {
     color: #ffa76e;
   }
   
-  .services .iconbox-orange:hover .icon i {
+  .services .iconbox-orange:hover .icon svg {
     color: #fff;
   }
   
@@ -899,7 +899,7 @@ body {
     color: #e80368;
   }
   
-  .services .iconbox-pink:hover .icon i {
+  .services .iconbox-pink:hover .icon svg {
     color: #fff;
   }
   
@@ -911,7 +911,7 @@ body {
     color: #ffbb2c;
   }
   
-  .services .iconbox-yellow:hover .icon i {
+  .services .iconbox-yellow:hover .icon svg {
     color: #fff;
   }
   
@@ -923,7 +923,7 @@ body {
     color: #ff5828;
   }
   
-  .services .iconbox-red:hover .icon i {
+  .services .iconbox-red:hover .icon svg {
     color: #fff;
   }
   
@@ -931,11 +931,11 @@ body {
     fill: #ff5828;
   }
   
-  .services .iconbox-teal i {
+  .services .iconbox-teal svg {
     color: #11dbcf;
   }
   
-  .services .iconbox-teal:hover .icon i {
+  .services .iconbox-teal:hover .icon svg {
     color: #fff;
   }
   

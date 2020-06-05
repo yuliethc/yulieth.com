@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "./components/Header";
+import Skills from "./../Components/Skills.js";
 
 const Resume = () => {
   return (
@@ -57,19 +58,24 @@ const Resume = () => {
                     <a href="https://platzi.com/@luboyulieth/">Platzi</a>
                   </p>
                 </div>
+                <h3 class="resume-title">Soft Skils</h3>
+                <div class="resume-item">
+                  <div class="row justify-content-center">
+                    <Skills Name="Honesty"></Skills>
+                    <Skills Name="Accountability"></Skills>
+                    <Skills Name="Teamwork"></Skills>
+                    <Skills Name="Problem solving"></Skills>
+                    <Skills Name="Patience"></Skills>
+                    <Skills Name="Proactive"></Skills>
+                    <Skills Name="Good communication"></Skills>
+                    <Skills Name="Empathy"></Skills>
+                    <Skills Name="Time management"></Skills>
+                  </div>
+                </div>
               </div>
               <div class="col-lg-6">
                 <h3 class="resume-title">Professional Experience</h3>
-                <div class="resume-item">
-                  <h4>Front-End Developer</h4>
-                  <h5>2020 - Present</h5>
-                  <p>
-                    <em>Avalon, Remote</em>
-                  </p>
-                  <p>
-                    I am developing a multiplataform app using Ionic-React for on-demand delivery, money transfer, business payments, and commercial services.
-                  </p>
-                </div>
+
                 <div class="resume-item">
                   <h4>Full Stack Developer</h4>
                   <h5>2019 - Present</h5>
@@ -84,6 +90,39 @@ const Resume = () => {
                     characteristics to an electronic invoice system in VB .NET
                     and MySQL.
                   </p>
+                </div>
+
+                <div class="resume-item">
+                  <h4>Front-End Developer</h4>
+                  <h5>Mayo 2020</h5>
+                  <p>
+                    <em>Avalon, Remote</em>
+                  </p>
+                  <p>
+                    I worked remotely with Avalon team developing a
+                    multi-platform app using Ionic-React and Material UI for
+                    on-demand delivery, money transfer, business payments, and
+                    commercial services. There I created the modules: Login,
+                    Sign Up, Password Recovery, User and Security.
+                  </p>
+                </div>
+
+                <h3 class="resume-title">Technical Skils</h3>
+                <div class="resume-item">
+                  <div class="row justify-content-center">
+                    <Skills Name="React JS"></Skills>
+                    <Skills Name="HTML"></Skills>
+                    <Skills Name="CSS"></Skills>
+                    <Skills Name="Git"></Skills>
+                    <Skills Name="Web Accessibility"></Skills>
+                    <Skills Name="MySQL"></Skills>
+                    <Skills Name="UI/UX design"></Skills>
+                    <Skills Name="Design Thinking"></Skills>
+                    <Skills Name="Copywriting"></Skills>
+                    <Skills Name="Adobe XD"></Skills>
+                    <Skills Name="Photoshop"></Skills>
+                    <Skills Name="Kanban"></Skills>
+                  </div>
                 </div>
               </div>
             </div>

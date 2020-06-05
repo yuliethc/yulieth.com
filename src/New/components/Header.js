@@ -40,7 +40,7 @@ const Header = (props) => {
             )}
             {props.Title === "Services" ? (
               <li class="active">
-                <a href="/">Services</a>
+                <a href="/services">Services</a>
               </li>
             ) : (
               <li>
@@ -49,7 +49,7 @@ const Header = (props) => {
             )}
             {props.Title === "Portfolio" ? (
               <li class="active">
-                <a href="/">Portfolio</a>
+                <a href="/portfolio">Portfolio</a>
               </li>
             ) : (
               <li>
@@ -58,7 +58,7 @@ const Header = (props) => {
             )}
             {props.Title === "Contact" ? (
               <li class="active">
-                <a href="/">Contact</a>
+                <a href="/contact">Contact</a>
               </li>
             ) : (
               <li>
