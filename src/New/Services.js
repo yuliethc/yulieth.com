@@ -32,7 +32,7 @@ const Services = () => {
                     <FontAwesomeIcon icon={faSearch} class="bx bx-layer" />
                   </div>
                   <h4>
-                    <a href="">Ideation</a>
+                    Ideation
                   </h4>
                   <p>
                    I research the users in order to define their needs and create a unique experience.
@@ -51,7 +51,7 @@ const Services = () => {
                     <FontAwesomeIcon icon={faCoffee} class="bx bx-layer" />
                   </div>
                   <h4>
-                    <a href="">Wireframing and Prototyping</a>
+                    Wireframing and Prototyping
                   </h4>
                   <p>
                   I create low and high fidelity wireframing and user story mapping, flows, iterative testing by prototyping.
@@ -69,7 +69,7 @@ const Services = () => {
                     <FontAwesomeIcon icon={faDesktop} class="bx bx-layer" />
                   </div>
                   <h4>
-                    <a href="">Responsive design</a>
+                    Responsive design
                   </h4>
                   <p>
                   I create functional websites, easy to use and aesthetically appealing to the user. These will show on different devices (smartphones, tablets, desktops, etc.). 
@@ -87,7 +87,7 @@ const Services = () => {
                     <FontAwesomeIcon icon={faCode} class="bx bx-layer" />
                   </div>
                   <h4>
-                    <a href="">Web development</a>
+                    Web development
                   </h4>
                   <p>
                     I develop websites using the newest coding technology React.JS, HTML 5 and CSS3.
