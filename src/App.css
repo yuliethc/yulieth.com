@@ -1047,6 +1047,7 @@ body {
     font-size: 28px;
     display: inline-block;
     transition: 0.3s;
+    cursor: pointer;
   }
   
   .portfolio .portfolio-wrap .portfolio-links a:hover {
