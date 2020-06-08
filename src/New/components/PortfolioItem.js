@@ -9,16 +9,17 @@ const PortfolioItem = (props) => {
       data-aos="fade-up"
       data-aos-delay="200"
     >
-      <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+      <div class={`col-lg-4 col-md-6 portfolio-item ${props.Filter}`}>
         <div class="portfolio-wrap">
-          <img src={props.Thumbnail} class="img-fluid" alt="" />
+          <img src={props.Thumbnail} class="img-fluid" alt="Thumbnail" />
           <div class="portfolio-info">
             <h4>{props.Title}</h4>
             <p>{props.SubTitle}</p>
             <div class="portfolio-links">
               <a
                 onClick={(event, newValue) => {
-                  props.openModal();
+                  props.openModal(props.Id);
+                  
                 }}
               >
                 <FontAwesomeIcon icon={faPlus} />

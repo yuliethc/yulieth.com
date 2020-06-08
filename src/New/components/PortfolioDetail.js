@@ -144,19 +144,24 @@ const PortfolioDetail = (props) => {
               <div class="col-lg-4 portfolio-info">
                 <h3>Project information</h3>
                 <ul>
-                  <li>
+                 {props.projectCategory && 
+                 <li>
                     <strong>Category</strong>: {props.projectCategory}
-                  </li>
+                  </li>}
+                  {props.projectClient && 
                   <li>
                     <strong>Client</strong>: {props.projectClient}
                   </li>
+                  }
+                  {props.projectDate && 
                   <li>
                     <strong>Project date</strong>: {props.projectDate}
-                  </li>
+                  </li>}
+                  {props.projectUrl && 
                   <li>
                     <strong>Project URL</strong>:{" "}
                     <a href="#">{props.projectUrl}</a>
-                  </li>
+                  </li>}
                 </ul>
 
                 <p>{props.projectDescription}</p>
