@@ -1,7 +1,8 @@
 import React from "react";
 import testpic from "../img/portfolio/portfolio-7.jpg";
+import Skills from "../../Components/Skills";
 
-const PortfolioDetail = () => {
+const PortfolioDetail = (props) => {
   return (
     <>
       <main id="main">
@@ -9,26 +10,7 @@ const PortfolioDetail = () => {
           <div class="container">
             <div class="row">
               <div class="col-lg-8">
-                <h2 class="portfolio-title">
-                  This is an example of portfolio detail
-                </h2>
-                {/* <div class="owl-carousel portfolio-details-carousel">
-                  <img
-                    src={testpic}
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <img
-                    src={testpic}
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <img
-                    src={testpic}
-                    class="img-fluid"
-                    alt=""
-                  />
-                </div> */}
+                <h2 class="portfolio-title">{props.Title}</h2>
 
                 <div
                   id="carouselExampleIndicators"
@@ -36,30 +18,101 @@ const PortfolioDetail = () => {
                   data-ride="carousel"
                 >
                   <ol class="carousel-indicators">
-                    <li
-                      data-target="#carouselExampleIndicators"
-                      data-slide-to="0"
-                      class="active"
-                    ></li>
-                    <li
-                      data-target="#carouselExampleIndicators"
-                      data-slide-to="1"
-                    ></li>
-                    <li
-                      data-target="#carouselExampleIndicators"
-                      data-slide-to="2"
-                    ></li>
+                    {props.imageSlide1 && (
+                      <li
+                        data-target="#carouselExampleIndicators"
+                        data-slide-to="0"
+                        class="active"
+                      ></li>
+                    )}
+                    {props.imageSlide2 && (
+                      <li
+                        data-target="#carouselExampleIndicators"
+                        data-slide-to="1"
+                      ></li>
+                    )}
+                    {props.imageSlide3 && (
+                      <li
+                        data-target="#carouselExampleIndicators"
+                        data-slide-to="2"
+                      ></li>
+                    )}
+
+                    {props.imageSlide4 && (
+                      <li
+                        data-target="#carouselExampleIndicators"
+                        data-slide-to="3"
+                        class="active"
+                      ></li>
+                    )}
+                    {props.imageSlide5 && (
+                      <li
+                        data-target="#carouselExampleIndicators"
+                        data-slide-to="4"
+                      ></li>
+                    )}
+                    {props.imageSlide6 && (
+                      <li
+                        data-target="#carouselExampleIndicators"
+                        data-slide-to="5"
+                      ></li>
+                    )}
                   </ol>
                   <div class="carousel-inner">
-                    <div class="carousel-item active">
-                      <img src={testpic} class="d-block w-100" alt="..." />
-                    </div>
-                    <div class="carousel-item">
-                      <img src={testpic} class="d-block w-100" alt="..." />
-                    </div>
-                    <div class="carousel-item">
-                      <img src={testpic} class="d-block w-100" alt="..." />
-                    </div>
+                    {props.imageSlide1 && (
+                      <div class="carousel-item active">
+                        <img
+                          src={props.imageSlide1}
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                      </div>
+                    )}
+                    {props.imageSlide2 && (
+                      <div class="carousel-item">
+                        <img
+                          src={props.imageSlide2}
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                      </div>
+                    )}
+                    {props.imageSlide3 && (
+                      <div class="carousel-item">
+                        <img
+                          src={props.imageSlide3}
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                      </div>
+                    )}
+                    {props.imageSlide4 && (
+                      <div class="carousel-item">
+                        <img
+                          src={props.imageSlide4}
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                      </div>
+                    )}
+                    {props.imageSlide5 && (
+                      <div class="carousel-item">
+                        <img
+                          src={props.imageSlide5}
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                      </div>
+                    )}
+                    {props.imageSlide6 && (
+                      <div class="carousel-item">
+                        <img
+                          src={props.imageSlide6}
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                      </div>
+                    )}
                   </div>
                   <a
                     class="carousel-control-prev"
@@ -92,28 +145,31 @@ const PortfolioDetail = () => {
                 <h3>Project information</h3>
                 <ul>
                   <li>
-                    <strong>Category</strong>: Web design
+                    <strong>Category</strong>: {props.projectCategory}
                   </li>
                   <li>
-                    <strong>Client</strong>: ASU Company
+                    <strong>Client</strong>: {props.projectClient}
                   </li>
                   <li>
-                    <strong>Project date</strong>: 01 March, 2020
+                    <strong>Project date</strong>: {props.projectDate}
                   </li>
                   <li>
                     <strong>Project URL</strong>:{" "}
-                    <a href="#">www.example.com</a>
+                    <a href="#">{props.projectUrl}</a>
                   </li>
                 </ul>
 
-                <p>
-                  Autem ipsum nam porro corporis rerum. Quis eos dolorem eos
-                  itaque inventore commodi labore quia quia. Exercitationem
-                  repudiandae officiis neque suscipit non officia eaque itaque
-                  enim. Voluptatem officia accusantium nesciunt est omnis
-                  tempora consectetur dignissimos. Sequi nulla at esse enim cum
-                  deserunt eius.
-                </p>
+                <p>{props.projectDescription}</p>
+
+                <p><strong>Technology used</strong></p>
+
+               {props.projectTech1 && <Skills Name={props.projectTech1}></Skills>}
+               {props.projectTech2 && <Skills Name={props.projectTech2}></Skills>}
+               {props.projectTech3 && <Skills Name={props.projectTech3}></Skills>}
+               {props.projectTech4 && <Skills Name={props.projectTech4}></Skills>}
+               {props.projectTech5 && <Skills Name={props.projectTech5}></Skills>}
+               {props.projectTech6 && <Skills Name={props.projectTech6}></Skills>}
+               {props.projectTech7 && <Skills Name={props.projectTech7}></Skills>}
               </div>
             </div>
           </div>

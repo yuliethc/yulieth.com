@@ -67,7 +67,7 @@ const Portfolio = () => {
                     <div class="portfolio-links">
                       <a
                         onClick={(event, newValue) => {
-                            openModal();
+                          openModal();
                         }}
                       >
                         <FontAwesomeIcon icon={faPlus} />
@@ -78,14 +78,27 @@ const Portfolio = () => {
               </div>
             </div>
           </div>
-        <Modal
-          isOpen={valueStatusModal}
-          onClose={onCloseModal}
-          handleKeyUp={handleKeyUp}
-          title={"Portfolio Detail"}
-        >
-         <PortfolioDetail></PortfolioDetail>
-        </Modal>
+          <Modal
+            isOpen={valueStatusModal}
+            onClose={onCloseModal}
+            handleKeyUp={handleKeyUp}
+            title={"Portfolio Detail"}
+          >
+            <PortfolioDetail
+            Title="Project 1"
+              imageSlide1={testpic}
+              imageSlide2={testpic}
+              projectCategory={"Web design"}
+              projectClient={"ASU Company"}
+              projectDate={"01 March, 2020"}
+              projectUrl={"www.example.com"}
+              projectDescription={
+                "ewfssedfsdsfsfsdfsdfff dfsf sdfsdfsdfsfsfsdf wfwef fwe fwefwew fwwwefwefw wefewfwefwefwfwfwef werwefewfwe wef wefwwrwerwerwerwe"
+              }
+              projectTech1={"react1"}
+              projectTech2={"react2"}
+            ></PortfolioDetail>
+          </Modal>
         </section>
       </main>
     </>
