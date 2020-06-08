@@ -70,6 +70,9 @@ const Resume = () => {
                     <Skills Name="Good communication"></Skills>
                     <Skills Name="Empathy"></Skills>
                     <Skills Name="Time management"></Skills>
+                    <Skills Name="Multi-tasking"></Skills>
+                    <Skills Name="Collaborative"></Skills>
+                    <Skills Name="Quick learner"></Skills>
                   </div>
                 </div>
               </div>
