@@ -10,7 +10,7 @@ const PortfolioDetail = (props) => {
           <div class="container">
             <div class="row">
               <div class="col-lg-8">
-                <h2 class="portfolio-title">{props.Title}</h2>
+                <h2 class="portfolio-title">{props.projectTitle}</h2>
 
                 <div
                   id="carouselExampleIndicators"
