@@ -119,8 +119,14 @@ const Portfolio = () => {
                 </ul>
               </div>
             </div>
-
-            {getAllProjects(projects, openModal)}
+            <div
+            class="portfolio-container"
+            data-aos="fade-up"
+            data-aos-delay="200"
+              // class="d-flex flex-wrap"
+            >
+              {getAllProjects(projects, openModal)}
+            </div>
           </div>
           <Modal
             isOpen={valueStatusModal}

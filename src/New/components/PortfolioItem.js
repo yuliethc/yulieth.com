@@ -5,11 +5,11 @@ import { faPlus } from "@fortawesome/free-solid-svg-icons";
 const PortfolioItem = (props) => {
   return (
     <div
-      class="row portfolio-container"
-      data-aos="fade-up"
-      data-aos-delay="200"
+      // class="portfolio-container"
+      // data-aos="fade-up"
+      // data-aos-delay="200"
     >
-      <div class={`col-lg-4 col-md-6 portfolio-item ${props.Filter}`}>
+      <div class={`col-lg-4 portfolio-item ${props.Filter}`}>
         <div class="portfolio-wrap">
           <img src={props.Thumbnail} class="img-fluid" alt="Thumbnail" />
           <div class="portfolio-info">
