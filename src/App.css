@@ -21,7 +21,7 @@ body {
   }
   
   #main {
-    margin-top: 50px;
+    margin-top: 30px;
   }
   
   @media (max-width: 992px) {
@@ -986,6 +986,9 @@ body {
     overflow: hidden;
     z-index: 1;
     background: rgba(34, 34, 34, 0.6);
+    
+    max-width: 350px;
+    max-height: 200px;
   }
   
   .portfolio .portfolio-wrap::before {
