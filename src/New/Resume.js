@@ -1,6 +1,9 @@
 import React from "react";
 import Header from "./components/Header";
 import Skills from "./../Components/Skills.js";
+import ResumeEN from "./pdf/resume.pdf"
+
+
 
 const Resume = () => {
   return (
@@ -11,9 +14,13 @@ const Resume = () => {
           <div class="container" data-aos="fade-up">
             <div class="section-title">
               <h2>Resume</h2>
+              <a class="skills__container m-0" href={ResumeEN} target="_blank">
+             Download
+              </a>
             </div>
 
             <div class="row">
+            
               <div class="col-lg-6">
                 <h3 class="resume-title">Sumary</h3>
                 <div class="resume-item pb-0">
@@ -90,22 +97,6 @@ const Resume = () => {
                   </p>
                 </div>
                 <div class="resume-item">
-                  <h4>Full Stack Developer</h4>
-                  <h5>Feb. 2019 - Present</h5>
-                  <p>
-                    <em>Escobedo Medina Auditores Asociados, Perú</em>
-                  </p>
-                  <p>
-                    I am developing a web-based ERP with React, NodeJs/Express,
-                    and MySQL. Also I am in charge of design and prototype the
-                    model of the project using Adobe Photoshop and Adobe XD.
-                    Additionally, I am maintaining and developing new
-                    characteristics to an electronic invoice system in VB .NET
-                    and MySQL.
-                  </p>
-                </div>
-
-                <div class="resume-item">
                   <h4>Front-End Developer</h4>
                   <h5>May 2020</h5>
                   <p>
@@ -115,8 +106,23 @@ const Resume = () => {
                     I worked remotely with Avalon team developing a
                     multi-platform app using Ionic-React and Material UI for
                     on-demand delivery, money transfer, business payments, and
-                    commercial services. There I created: Login,
-                    Sign Up, Password Recovery, User and Security.
+                    commercial services. There I created: Login, Sign Up,
+                    Password Recovery, User and Security.
+                  </p>
+                </div>
+                <div class="resume-item">
+                  <h4>Full Stack Developer</h4>
+                  <h5>Feb. 2019 - Apr. 2020</h5>
+                  <p>
+                    <em>Escobedo Medina Auditores Asociados, Perú</em>
+                  </p>
+                  <p>
+                    I was developing a web-based ERP with React, NodeJs/Express,
+                    and MySQL. Also I was in charge of design and prototype the
+                    model of the project using Adobe Photoshop and Adobe XD.
+                    Additionally, I was maintaining and developing new
+                    characteristics to an electronic invoice system in VB .NET
+                    and MySQL.
                   </p>
                 </div>
 

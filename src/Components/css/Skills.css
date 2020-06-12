@@ -15,4 +15,5 @@
 .skills__container:hover{   
   background-color: #7D1E41;  
   color: white; 
+  text-decoration: none;
 }
