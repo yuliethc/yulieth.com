@@ -10,20 +10,20 @@ import project1Image2 from "./img/project1/second.jpg";
 import project1Image3 from "./img/project1/third.png";
 import project1Image4 from "./img/project1/fourth.png";
 import project1Image5 from "./img/project1/fift.png";
-import prject2Thumbnail from "./img/project2/mfoconsulta.jpg";
-import prject2Image1 from "./img/project2/landing.png";
-import prject2Image2 from "./img/project2/consultation.png";
-import prject2Image3 from "./img/project2/contact.png";
-import prject3Thumbnail from "./img/project3/thumbnail.jpg";
-import prject3Image1 from "./img/project3/ifirst.png";
-import prject3Image2 from "./img/project3/second.png";
-import prject3Image3 from "./img/project3/third.png";
-import prject3Image4 from "./img/project3/fourth.png";
-import prject3Image5 from "./img/project3/fift.png";
-import prject3Image6 from "./img/project3/sixth.png";
-import prject3Image7 from "./img/project3/seventh.png";
-import prject3Image8 from "./img/project3/ocho.png";
-import prject3Image9 from "./img/project3/nineth.png";
+import project2Thumbnail from "./img/project2/mfoconsulta.jpg";
+import project2Image1 from "./img/project2/landing.png";
+import project2Image2 from "./img/project2/consultation.png";
+import project2Image3 from "./img/project2/contact.png";
+import project3Thumbnail from "./img/project3/thumbnail.jpg";
+import project3Image1 from "./img/project3/ifirst.png";
+import project3Image2 from "./img/project3/second.png";
+import project3Image3 from "./img/project3/third.png";
+import project3Image4 from "./img/project3/fourth.png";
+import project3Image5 from "./img/project3/fift.png";
+import project3Image6 from "./img/project3/sixth.png";
+import project3Image7 from "./img/project3/seventh.png";
+import project3Image8 from "./img/project3/ocho.png";
+import project3Image9 from "./img/project3/nineth.png";
 import project4Image1 from "./img/project4/1.png";
 import project4Image2 from "./img/project4/2.png";
 import project4Image3 from "./img/project4/3.png";
@@ -34,13 +34,19 @@ import project5Thumbnail from "./img/project5/cupcake.jpg";
 import project6Thumbnail from "./img/project6/thumbnail.jpg";
 import project7Thumbnail from "./img/project7/1.png";
 import project8Thumbnail from "./img/project8/thumbnail.jpg";
+import project9Thumbnail from "./img/project9/thumbnail.png";
+import project9Image1 from "./img/project9/Imagen1.png";
+import project9Image2 from "./img/project9/Imagen2.png";
+import project9Image3 from "./img/project9/Imagen3.png";
+import project9Image4 from "./img/project9/Imagen4.png";
+import project9Image5 from "./img/project9/Imagen5.png";
 
 const projects = [
   {
     Id: 1,
     Title: "Contatrib ERP - Mi Factura Perú",
     Subtitle: "A web based ERP",
-    Description: "A web-based ERP that control.",
+    Description: "A web-based ERP system integrated to an electronic invoicing system.",
     Thumbnail: project1Thumbnail,
     URL: "https://app.mifacturaperu.com/",
     TechUsed: [
@@ -68,13 +74,13 @@ const projects = [
     Title: "Mi Factura Perú",
     Subtitle: "Web system for invoice consultation",
     Description:
-      "Developed the Frontend architecture of the Web of an electronic desktop invoicing system to give access to the clients of the companies affiliated to their invoices",
-    Thumbnail: prject2Thumbnail,
+      "Developed the Frontend architecture of the Web of an electronic desktop invoicing system to give access to the clients of the companies affiliated to their invoices.",
+    Thumbnail: project2Thumbnail,
     URL: "http://www.mifacturaperu.com/",
     TechUsed: ["HTML", "CSS"],
     Category: "Development",
     Client: "Escobedo Medina Auditores Asociados",
-    ImageSlides: [prject2Image1, prject2Image2, prject2Image3],
+    ImageSlides: [project2Image1, project2Image2, project2Image3],
     ProjectDate: "2019",
     Filter: "filter-dev",
   },
@@ -84,29 +90,50 @@ const projects = [
     Subtitle: "System Desktop Administrator",
     Description:
       "I was maintaining and developing new characteristics to a desktop app, that handles configuration of administrative functions needed to generate electronic invoices in a multi-business system.",
-    Thumbnail: prject3Thumbnail,
+    Thumbnail: project3Thumbnail,
     URL: "http://www.mifacturaperu.com/descargas",
     TechUsed: ["VB .NET", "MySQL"],
     Category: "Development",
     Client: "Escobedo Medina Auditores Asociados",
     ImageSlides: [
-      prject3Image1,
-      prject3Image2,
-      prject3Image3,
-      prject3Image6,
-      prject3Image7,
-      prject3Image8,
-      prject3Image9,
+      project3Image1,
+      project3Image2,
+      project3Image3,
+      project3Image6,
+      project3Image7,
+      project3Image8,
+      project3Image9,
     ],
     ProjectDate: "2019-2020",
     Filter: "filter-dev",
   },
   {
     Id: 4,
+    Title: "Delupar",
+    Subtitle: "On-demand delivery and money transfer App",
+    Description:
+      "I worked remotely with Avalon team developing a multi-platform app using Ionic-React and Material UI for on-demand delivery, money transfer, business payments, and commercial services. There I created: Layout, Menu, Login, Sign Up, Password Recovery, User and Security.",
+    Thumbnail: project9Thumbnail,
+    URL: null,
+    TechUsed: ["Adobe Photoshop", "Adobe XD"],
+    Category: "Development",
+    Client: "Avalon",
+    ImageSlides: [
+      project9Image1,
+      project9Image2,
+      project9Image3,
+      project9Image4,
+      project9Image5,
+    ],
+    ProjectDate: "2020",
+    Filter: "filter-dev",
+  },
+  {
+    Id: 5,
     Title: "Contatrib ERP - Mi Factura Perú",
     Subtitle: "High Quality Wireframe",
     Description:
-      "I am developing a web-based ERP. I am also in charge of designing and prototyping the model of the project.",
+      "I designed and prototyped the model of the project Contatrib ERP - Mi Factura Perú.",
     Thumbnail: project1Thumbnail,
     URL: null,
     TechUsed: ["Adobe Photoshop", "Adobe XD"],
@@ -125,10 +152,10 @@ const projects = [
   },
 
   {
-    Id: 5,
+    Id: 6,
     Title: "Cupcake World",
     Subtitle: "Mobile App Landing Page",
-    Description: "Mobile UI design and copywriting",
+    Description: "Mobile UI design and copywriting.",
     Url:
       "https://www.behance.net/gallery/96469701/Cupcake-World-Mobile-App-Landing-Page",
     Thumbnail: project5Thumbnail,
@@ -142,10 +169,10 @@ const projects = [
     Filter: "filter-ux",
   },
   {
-    Id: 6,
+    Id: 7,
     Title: "Flick",
     Subtitle: "Movie social network and rating App",
-    Description: "Movie social network and rating App design",
+    Description: "Movie social network and rating App design.",
     Url:
       "https://www.behance.net/gallery/97457551/Flick-app",
     Thumbnail: project8Thumbnail,
@@ -159,7 +186,7 @@ const projects = [
     Filter: "filter-ux",
   },
   {
-    Id: 7,
+    Id: 8,
     Title: "Time…",
     Subtitle: "What is time?",
     Description: "Time is our company in all our life, wherever we go it's with us. So, is it our friend? Or is it our enemy?",
@@ -176,7 +203,7 @@ const projects = [
     Filter: "filter-writing",
   },
   {
-    Id: 8,
+    Id: 9,
     Title: "My Pragmatic World",
     Subtitle: "English Book",
     Description: "I create an English book, here I show some of its content",

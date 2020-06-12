@@ -15,7 +15,7 @@ const Resume = () => {
             <div class="section-title">
               <h2>Resume</h2>
               <a class="skills__container m-0" href={ResumeEN} target="_blank">
-             Download
+                  Download
               </a>
             </div>
 
@@ -106,7 +106,7 @@ const Resume = () => {
                     I worked remotely with Avalon team developing a
                     multi-platform app using Ionic-React and Material UI for
                     on-demand delivery, money transfer, business payments, and
-                    commercial services. There I created: Login, Sign Up,
+                    commercial services. There I created: Layout, Menu, Login, Sign Up,
                     Password Recovery, User and Security.
                   </p>
                 </div>

@@ -110,10 +110,10 @@ const PortfolioDetail = (props) => {
                       <strong>Project date</strong>: {props.project.ProjectDate}
                     </li>
                   )}
-                  {props.project.Url && (
+                  {props.project.URL && (
                     <li>
                       <strong>Project URL</strong>:{" "}
-                      <a href="#">{props.project.Url}</a>
+                      <a href={props.project.URL} target="_blank" >{props.project.URL}</a>
                     </li>
                   )}
                 </ul>
