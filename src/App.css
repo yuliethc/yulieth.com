@@ -1168,13 +1168,14 @@ body {
     color: #555555;
   }
   
-  .contact .info .email, .contact .info .phone {
+  .contact .info .email,.address, .contact .info .phone {
     margin-top: 40px;
   }
   
-  .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
+  .contact .info .email:hover i,.email:hover a, .contact .info .address:hover i,.address:hover a, .contact .info .phone:hover i {
     background: #b12a5b;
     color: #fff;
+    text-decoration: none;
   }
   
   .contact .php-email-form {

@@ -69,16 +69,16 @@ const Header = (props) => {
         </nav>
 
         <div class="header-social-links">
-          <a href="#" class="linkedin">
+          <a href="https://www.linkedin.com/in/yulieth/" target="_blank" class="linkedin">
             <i class="icofont-linkedin"></i>
           </a>
-          <a href="#" class="instagram">
+          {/* <a href="https://www.instagram.com/yuliethdotcom/" target="_blank" class="instagram">
             <i class="icofont-instagram"></i>
-          </a>
-          <a href="#" class="github">
+          </a> */}
+          <a href="https://github.com/yuliethc" target="_blank" class="github">
             <i class="icofont-github"></i>
           </a>
-          <a href="#" class="behance">
+          <a href="https://www.behance.net/yulieth" target="_blank" class="behance">
             <i class="icofont-behance"></i>
           </a>
         </div>
