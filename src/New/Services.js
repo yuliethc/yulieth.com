@@ -4,11 +4,9 @@ import "./vendor/icofont/icofont.min.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faCoffee,
-  faPalette,
   faCode,
   faSearch,
   faDesktop,
-  faArrowUp,
 } from "@fortawesome/free-solid-svg-icons";
 import UpButton from "./components/UpButton";
 import Preloader from "./components/Preloader";
