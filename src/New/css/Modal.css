@@ -1,0 +1,49 @@
+.Modal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 100;
+  }
+
+  
+  /***************************/
+  /* Usado solo por Modal.js */
+  /***************************/
+  .Modal > .contenedor {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 2rem;
+    background-color: white;
+    margin-top: 45px;
+  
+    --topbar-height: 3.5rem;
+  }
+  .Modal > .contenedor > .header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #b12a5b;
+    padding: 0.5rem 1rem;
+    align-items: center;
+    height: var(--topbar-height);
+  }
+  .Modal > .contenedor > .body {
+    overflow-y: auto;
+    max-height: calc(100vh - 65px - var(--topbar-height));
+    height: 100%;
+  }
+  .Modal > .contenedor > .header > label{
+    font-size: 1.5rem;
+    color: white;
+    margin: 0;
+  }
+  .Modal > .contenedor > .header > button{
+    padding: 0.5rem;
+  }
+  
