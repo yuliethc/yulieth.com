@@ -1,5 +1,7 @@
 import React from "react";
 import Header from "./components/Header";
+import Preloader from "./components/Preloader";
+import UpButton from "./components/UpButton";
 
 const Contact = () => {
   return (
@@ -46,18 +48,6 @@ const Contact = () => {
                   </a>
                 </div>
 
-                {/* <div class="address">
-                  <a
-                    href="https://www.instagram.com/yuliethdotcom/"
-                    class="instagram"
-                    target="_blank"
-                  >
-                    <i class="icofont-instagram"></i>
-
-                    <h4 className="pt-2">Instagram</h4>
-                  </a>
-                </div> */}
-
                 <div class="address">
                   <a
                     href="https://www.behance.net/yulieth"
@@ -95,6 +85,8 @@ const Contact = () => {
             </div>
           </div>
         </div>
+        <Preloader></Preloader>
+        <UpButton></UpButton>
       </section>
     </>
   );

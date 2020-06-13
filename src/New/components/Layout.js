@@ -1,19 +1,18 @@
 import React from "react";
 import Header from "./Header";
+import Preloader from "../components/Preloader";
+import UpButton from "../components/UpButton";
 
-const Layout = ({children}) => {
+const Layout = ({ children }) => {
   return (
     <>
       <Header Title={"Home"}></Header>
-      <section id="hero" class="d-flex align-items-center" >
-      {children}
+      <section id="hero" class="d-flex align-items-center">
+        {children}
       </section>
 
-     
- <div id="preloader"></div> 
-      <a href="#" class="back-to-top">
-        <i class="bx bx-up-arrow-alt"></i>
-      </a>
+      <Preloader></Preloader>
+      <UpButton></UpButton>
     </>
   );
 };

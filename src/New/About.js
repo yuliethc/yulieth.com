@@ -4,6 +4,8 @@ import Header from "./components/Header";
 import "./vendor/icofont/icofont.min.css";
 import photo from "./img/photo.jpg";
 import "../../src/Pages/styles/AboutMe.css";
+import Preloader from "./components/Preloader";
+import UpButton from "./components/UpButton";
 
 class About extends Component {
   render() {
@@ -80,14 +82,10 @@ class About extends Component {
               </div>
             </div>
           </section>
-
-
         </main>
-        <div id="preloader"></div>
 
-        <a href="#" class="back-to-top">
-          <i class="bx bx-up-arrow-alt"></i>
-        </a>
+        <Preloader></Preloader>
+        <UpButton></UpButton>
       </>
     );
   }

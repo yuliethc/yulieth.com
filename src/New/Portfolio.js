@@ -40,13 +40,16 @@ import project9Image2 from "./img/project9/Imagen2.png";
 import project9Image3 from "./img/project9/Imagen3.png";
 import project9Image4 from "./img/project9/Imagen4.png";
 import project9Image5 from "./img/project9/Imagen5.png";
+import Preloader from "./components/Preloader";
+import UpButton from "./components/UpButton";
 
 const projects = [
   {
     Id: 1,
     Title: "Contatrib ERP - Mi Factura Perú",
     Subtitle: "A web based ERP",
-    Description: "A web-based ERP system integrated to an electronic invoicing system.",
+    Description:
+      "A web-based ERP system integrated to an electronic invoicing system.",
     Thumbnail: project1Thumbnail,
     URL: "https://app.mifacturaperu.com/",
     TechUsed: [
@@ -162,9 +165,7 @@ const projects = [
     TechUsed: ["Marvel", "Figma"],
     Category: "UI & UX",
     Client: null,
-    ImageSlides: [
-      project5Thumbnail,
-    ],
+    ImageSlides: [project5Thumbnail],
     ProjectDate: "2020",
     Filter: "filter-ux",
   },
@@ -173,15 +174,12 @@ const projects = [
     Title: "Flick",
     Subtitle: "Movie social network and rating App",
     Description: "Movie social network and rating App design.",
-    Url:
-      "https://www.behance.net/gallery/97457551/Flick-app",
+    Url: "https://www.behance.net/gallery/97457551/Flick-app",
     Thumbnail: project8Thumbnail,
     TechUsed: ["Adobe XD"],
     Category: "UI & UX",
     Client: null,
-    ImageSlides: [
-      project8Thumbnail,
-    ],
+    ImageSlides: [project8Thumbnail],
     ProjectDate: "2020",
     Filter: "filter-ux",
   },
@@ -189,16 +187,14 @@ const projects = [
     Id: 8,
     Title: "Time…",
     Subtitle: "What is time?",
-    Description: "Time is our company in all our life, wherever we go it's with us. So, is it our friend? Or is it our enemy?",
-    Url:
-      "https://yuliethlubo.blogspot.com/2015/10/time-what-is-time.html",
+    Description:
+      "Time is our company in all our life, wherever we go it's with us. So, is it our friend? Or is it our enemy?",
+    Url: "https://yuliethlubo.blogspot.com/2015/10/time-what-is-time.html",
     Thumbnail: project6Thumbnail,
     TechUsed: null,
     Category: "Writing",
     Client: null,
-    ImageSlides: [
-      project6Thumbnail,
-    ],
+    ImageSlides: [project6Thumbnail],
     ProjectDate: "2015",
     Filter: "filter-writing",
   },
@@ -207,19 +203,15 @@ const projects = [
     Title: "My Pragmatic World",
     Subtitle: "English Book",
     Description: "I create an English book, here I show some of its content",
-    Url:
-      "https://mypragmaticworld.wordpress.com/category/english-classes/",
+    Url: "https://mypragmaticworld.wordpress.com/category/english-classes/",
     Thumbnail: project7Thumbnail,
     TechUsed: null,
     Category: "Writing",
     Client: null,
-    ImageSlides: [
-      project7Thumbnail,
-    ],
+    ImageSlides: [project7Thumbnail],
     ProjectDate: "2018",
     Filter: "filter-writing",
   },
-  
 ];
 const getAllProjects = (projects, openModal) => {
   return projects.map((project) => {
@@ -273,9 +265,7 @@ const Portfolio = () => {
           <div class="container" data-aos="fade-up">
             <div class="section-title">
               <h2>Portfolio</h2>
-              <p>
-              This is the collection of my most relevant work.
-              </p>
+              <p>This is the collection of my most relevant work.</p>
             </div>
 
             <div class="row" data-aos="fade-up" data-aos-delay="100">
@@ -306,6 +296,9 @@ const Portfolio = () => {
           >
             <PortfolioDetail project={valueProjectSelected}></PortfolioDetail>
           </Modal>
+
+          <Preloader></Preloader>
+          <UpButton></UpButton>
         </section>
       </main>
     </>
