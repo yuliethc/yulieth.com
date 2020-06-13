@@ -619,7 +619,13 @@ body {
   .about .content p:last-child {
     margin-bottom: 0;
   }
-  
+  .about a{
+    color:#b12a5b;
+  }
+  .about a:hover{
+    text-decoration: none;
+    color:#7D1E41;
+  }
   /*--------------------------------------------------------------
   # Skills
   --------------------------------------------------------------*/

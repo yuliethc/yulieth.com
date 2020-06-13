@@ -13,8 +13,8 @@ const Contact = () => {
           <div class="section-title">
             <h2>Contact</h2>
             <p>
-              You can contact me or learn more about me through these social
-              networks.
+              {/* You can contact me or learn more about me through these social
+              networks. */}
             </p>
           </div>
 
