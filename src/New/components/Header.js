@@ -1,68 +1,69 @@
 import React from "react";
 import "../vendor/icofont/icofont.min.css";
+import { Link } from "react-router-dom";
 
 const Header = (props) => {
   return (
     <header id="header" class="fixed-top">
       <div class="container-fluid d-flex justify-content-between align-items-center">
         <h1 class="logo">
-          <a href="/">Yulieth</a>
+          <Link to="/">Yulieth</Link>
         </h1>
 
         <nav class="nav-menu  d-lg-block">
           <ul>
             {props.Title === "Home" ? (
               <li class="active">
-                <a href="/">Home</a>
+                <Link to="/">Home</Link>
               </li>
             ) : (
               <li>
-                <a href="/">Home</a>
+                <Link to="/">Home</Link>
               </li>
             )}
             {props.Title === "About" ? (
               <li class="active">
-                <a href="/about">About</a>
+                <Link to="/about">About</Link>
               </li>
             ) : (
               <li>
-                <a href="/about">About</a>
+                <Link to="/about">About</Link>
               </li>
             )}
             {props.Title === "Resume" ? (
               <li class="active">
-                <a href="/resume">Resume</a>
+                <Link to="/resume">Resume</Link>
               </li>
             ) : (
               <li>
-                <a href="/resume">Resume</a>
+                <Link to="/resume">Resume</Link>
               </li>
             )}
             {props.Title === "Services" ? (
               <li class="active">
-                <a href="/services">Services</a>
+                <Link to="/services">Services</Link>
               </li>
             ) : (
               <li>
-                <a href="/services">Services</a>
+                <Link to="/services">Services</Link>
               </li>
             )}
             {props.Title === "Portfolio" ? (
               <li class="active">
-                <a href="/portfolio">Portfolio</a>
+                <Link to="/portfolio">Portfolio</Link>
               </li>
             ) : (
               <li>
-                <a href="/portfolio">Portfolio</a>
+                <Link to="/portfolio">Portfolio</Link>
               </li>
             )}
             {props.Title === "Contact" ? (
               <li class="active">
-                <a href="/contact">Contact</a>
+                <Link to="/contact">Contact</Link>
               </li>
             ) : (
               <li>
-                <a href="/contact">Contact</a>
+                <Link to="/contact">Contact</Link>
               </li>
             )}
           </ul>
