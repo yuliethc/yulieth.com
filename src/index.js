@@ -8,16 +8,8 @@ import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.js';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 
-import { Router } from 'react-router';
-    import createHashHistory from 'history/createHashHistory';
-    const hashHistory = createHashHistory({ basename: process.env.PUBLIC_URL });
-    ReactDOM.render(
-        <Router history={hashHistory}>
-          <App />
-        </Router>,
-      document.getElementById('root'));
 
-// ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
