@@ -17,7 +17,8 @@ class Landing extends Component {
     // let MenuActive = "about__me"
     return (
       <>
-        <div className="landing__container">
+      <h4>Page not found</h4>
+       {/*  <div className="landing__container">
           <header className="landing__first">
             <section className="landing__hello">
               <span>Hello! I'm Yulieth</span>
@@ -55,12 +56,12 @@ class Landing extends Component {
         <div id="content__container">
           {/* <Menu
           // MenuActive={MenuActive}
-          ></Menu> */}
+          ></Menu> 
           <div id="about__me">
             <AboutMe></AboutMe>
           </div>
           <div id="portfolio"> <Portfolio></Portfolio></div>
-          {/* <div id="achievements">
+           <div id="achievements">
            <Achievements></Achievements>
           </div>  
           <div id="blog">
@@ -68,8 +69,8 @@ class Landing extends Component {
           </div>
           <div id="contacts">
             <Contacts></Contacts>
-          </div> */}
-        </div>
+          </div> *
+        </div>*/}
       </>
     );
   }

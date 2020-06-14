@@ -6,7 +6,7 @@ const Header = (props) => {
     <header id="header" class="fixed-top">
       <div class="container-fluid d-flex justify-content-between align-items-center">
         <h1 class="logo">
-          <a href="index.html">Yulieth</a>
+          <a href="/">Yulieth</a>
         </h1>
 
         <nav class="nav-menu  d-lg-block">
