@@ -147,7 +147,6 @@ const Resume = () => {
           </div>
         </section>
       </main>
-      <Preloader></Preloader>
       <UpButton></UpButton>
     </>
   );

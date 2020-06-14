@@ -87,7 +87,6 @@ class About extends Component {
           </section>
         </main>
 
-        <Preloader></Preloader>
         <UpButton></UpButton>
       </>
     );

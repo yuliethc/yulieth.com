@@ -85,7 +85,6 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        <Preloader></Preloader>
         <UpButton></UpButton>
       </section>
     </>

@@ -1,8 +1,9 @@
-import React, { Component } from "react";
+import React, { Component, useEffect } from "react";
 import Layout from "./components/Layout";
+import { Link } from "react-router-dom";
 
-class NewLanding extends Component {
-  render() {
+const NewLanding = () => {
+
     return (
       <>
         <Layout>
@@ -14,14 +15,13 @@ class NewLanding extends Component {
             <h1>Yulieth Lubo</h1>
             <h1>de D'Agostini</h1>
             <h2>Front-End Developer</h2>
-            <a href="/about" class="btn-about">
+            <Link to="/about" class="btn-about">
               About Me
-            </a>
+            </Link>
           </div>
         </Layout>
       </>
     );
-  }
 }
 
 export default NewLanding;

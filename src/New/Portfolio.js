@@ -43,6 +43,7 @@ import project9Image5 from "./img/project9/Imagen5.png";
 import Preloader from "./components/Preloader";
 import UpButton from "./components/UpButton";
 
+
 const projects = [
   {
     Id: 1,
@@ -213,6 +214,7 @@ const projects = [
     Filter: "filter-writing",
   },
 ];
+
 const getAllProjects = (projects, openModal) => {
   return projects.map((project) => {
     return (
@@ -274,7 +276,9 @@ const Portfolio = () => {
                   <li data-filter="*" class="filter-active">
                     All
                   </li>
-                  <li data-filter=".filter-dev">Development</li>
+                  <li data-filter=".filter-dev">
+                    Development
+                  </li>
                   <li data-filter=".filter-ux">UI & UX</li>
                   <li data-filter=".filter-writing">Writing</li>
                 </ul>

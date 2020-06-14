@@ -11,7 +11,6 @@ const Layout = ({ children }) => {
         {children}
       </section>
 
-      <Preloader></Preloader>
       <UpButton></UpButton>
     </>
   );

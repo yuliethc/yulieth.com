@@ -68,7 +68,6 @@ const Services = () => {
           </div>
         </section>
       </main>
-      <Preloader></Preloader>
       <UpButton></UpButton>
     </>
   );

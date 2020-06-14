@@ -23,11 +23,13 @@ const Header = (props) => {
             )}
             {props.Title === "About" ? (
               <li class="active">
-                <Link to="/about">About</Link>
+                <Link
+                 to="/about">About</Link>
               </li>
             ) : (
               <li>
-                <Link to="/about">About</Link>
+                <Link
+                 to="/about">About</Link>
               </li>
             )}
             {props.Title === "Resume" ? (
@@ -50,11 +52,11 @@ const Header = (props) => {
             )}
             {props.Title === "Portfolio" ? (
               <li class="active">
-                <Link to="/portfolio">Portfolio</Link>
+                <a href="/portfolio">Portfolio</a>
               </li>
             ) : (
               <li>
-                <Link to="/portfolio">Portfolio</Link>
+                <a href="/portfolio">Portfolio</a>
               </li>
             )}
             {props.Title === "Contact" ? (

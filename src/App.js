@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import NewLanding from "./New/NewLanding";
 import About from "./New/About";
 import Resume from "./New/Resume";
@@ -12,7 +12,7 @@ import Landing from "./Pages/Landing";
 
 function App() {
   return (
-    <BrowserRouter>
+    <Router>
       <Switch>
         <Route exact path="/" component={NewLanding}></Route>
         <Route exact path="/about" component={About}></Route>
@@ -25,9 +25,9 @@ function App() {
           component={PortfolioDetail}
         ></Route>
         <Route exact path="/contact" component={Contact}></Route>
-        <Route component={Landing}></Route>
+        <Route path="*" component={Landing}></Route>
       </Switch>
-    </BrowserRouter>
+    </Router>
   );
 }
 
