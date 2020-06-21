@@ -14,9 +14,9 @@ const Resume = () => {
           <div class="container" data-aos="fade-up">
             <div class="section-title">
               <h2>Resume</h2>
-              <a class="skills__container m-0" href={ResumeEN} target="_blank">
+              {/* <a class="skills__container m-0" href={ResumeEN} target="_blank">
                 Download
-              </a>
+              </a> */}
             </div>
 
             <div class="row">
@@ -84,7 +84,7 @@ const Resume = () => {
               </div>
               <div class="col-lg-6">
                 <h3 class="resume-title">Professional Experience</h3>
-                <div class="resume-item">
+                {/* <div class="resume-item">
                   <h4>Front-End Developer</h4>
                   <h5> Apr. 2020 - Present</h5>
                   <p>
@@ -93,6 +93,22 @@ const Resume = () => {
                   <p>
                     I am working remotely as independent in different projects
                     of web designing and development.
+                  </p>
+                </div> */}
+             
+                <div class="resume-item">
+                  <h4>Full Stack Developer</h4>
+                  <h5>Feb. 2019 - Present</h5>
+                  <p>
+                    <em>Escobedo Medina Auditores Asociados, Perú</em>
+                  </p>
+                  <p>
+                    I am developing a web-based ERP with React, NodeJs/Express,
+                    and MySQL. Also I am in charge of design and prototype the
+                    model of the project using Adobe Photoshop and Adobe XD.
+                    Additionally, I am maintaining and developing new
+                    characteristics to an electronic invoice system in VB .NET
+                    and MySQL.
                   </p>
                 </div>
                 <div class="resume-item">
@@ -109,22 +125,6 @@ const Resume = () => {
                     Sign Up, Password Recovery, User and Security.
                   </p>
                 </div>
-                <div class="resume-item">
-                  <h4>Full Stack Developer</h4>
-                  <h5>Feb. 2019 - Apr. 2020</h5>
-                  <p>
-                    <em>Escobedo Medina Auditores Asociados, Perú</em>
-                  </p>
-                  <p>
-                    I was developing a web-based ERP with React, NodeJs/Express,
-                    and MySQL. Also I was in charge of design and prototype the
-                    model of the project using Adobe Photoshop and Adobe XD.
-                    Additionally, I was maintaining and developing new
-                    characteristics to an electronic invoice system in VB .NET
-                    and MySQL.
-                  </p>
-                </div>
-
                 <h3 class="resume-title">Technical Skils</h3>
                 <div class="resume-item">
                   <div class="row justify-content-center">
