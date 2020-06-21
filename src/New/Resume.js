@@ -111,7 +111,7 @@ const Resume = () => {
                     and MySQL.
                   </p>
                 </div>
-                <div class="resume-item">
+                {/* <div class="resume-item">
                   <h4>Front-End Developer</h4>
                   <h5>May 2020</h5>
                   <p>
@@ -124,7 +124,7 @@ const Resume = () => {
                     commercial services. There I created: Layout, Menu, Login,
                     Sign Up, Password Recovery, User and Security.
                   </p>
-                </div>
+                </div> */}
                 <h3 class="resume-title">Technical Skils</h3>
                 <div class="resume-item">
                   <div class="row justify-content-center">
