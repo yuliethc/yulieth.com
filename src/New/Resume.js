@@ -23,18 +23,38 @@ const Resume = () => {
               <div class="col-lg-6">
                 <h3 class="resume-title">Sumary</h3>
                 <div class="resume-item pb-0">
-                  <h4>Yulieth Lubo de D'Agostini</h4>
+                  <h4>
+                    {" "}
+                    <p>Yulieth Lubo de D'Agostini </p>Software Developer •
+                    Front-End • Full Stack{" "}
+                  </h4>
                   <p>
                     <em>
-                      I’m from Venezuela, 29 years old, Front End developer with
-                      a Degree in Informatics Education. I speak Spanish and
-                      English. I develop innovative and accessible web
-                      applications. I have expertise in UI/UX design, design
-                      thinking and copywriting. I also design user interfaces
-                      and interactive prototypes with high-quality strategic
-                      texts. Likewise, I am passionate about Database
-                      management, from the creation of the database structure
-                      diagram, tables and functions to stored procedures.
+                      <ul>
+                        <li>
+                          <strong>
+                            {" "}
+                            A Software Developer specialized in Web development
+                          </strong>{" "}
+                          with 1+ year of experience in full life cycle of
+                          software, making responsive and accessible websites,
+                          with an insatiable level of curiosity and constant
+                          learning.
+                        </li>
+                        <li>
+                          <strong> An analytical thinker</strong> and problem
+                          solver with demonstrated experience in designing,
+                          development tools and frameworks.
+                        </li>
+                        <li>
+                          <strong>Teamwork skills</strong>, well-organized,
+                          manage activities and delivery times efficiently;
+                          excellent communication skills developed by working at
+                          an office and remotely in a 6 people team. In this
+                          way, I have experience in tools such as Kanban,
+                          communication platforms and version control systems.
+                        </li>
+                      </ul>
                     </em>
                   </p>
                   <p>
@@ -64,67 +84,56 @@ const Resume = () => {
                     <a href="https://platzi.com/@luboyulieth/">Platzi</a>
                   </p>
                 </div>
-                <h3 class="resume-title">Soft Skils</h3>
-                <div class="resume-item">
-                  <div class="row justify-content-center">
-                    <Skills Name="Honesty"></Skills>
-                    <Skills Name="Accountability"></Skills>
-                    <Skills Name="Teamwork"></Skills>
-                    <Skills Name="Problem solving"></Skills>
-                    <Skills Name="Patience"></Skills>
-                    <Skills Name="Proactive"></Skills>
-                    <Skills Name="Good communication"></Skills>
-                    <Skills Name="Empathy"></Skills>
-                    <Skills Name="Time management"></Skills>
-                    <Skills Name="Multi-tasking"></Skills>
-                    <Skills Name="Collaborative"></Skills>
-                    <Skills Name="Quick learner"></Skills>
-                  </div>
-                </div>
               </div>
               <div class="col-lg-6">
                 <h3 class="resume-title">Professional Experience</h3>
-                {/* <div class="resume-item">
-                  <h4>Front-End Developer</h4>
-                  <h5> Apr. 2020 - Present</h5>
-                  <p>
-                    <em>Freelancer, Remote</em>
-                  </p>
-                  <p>
-                    I am working remotely as independent in different projects
-                    of web designing and development.
-                  </p>
-                </div> */}
-             
+
                 <div class="resume-item">
                   <h4>Full Stack Developer</h4>
                   <h5>Feb. 2019 - Present</h5>
                   <p>
-                    <em>Escobedo Medina Auditores Asociados, Perú</em>
+                    <em>
+                      <strong>Escobedo Medina Auditores Asociados, Perú</strong>
+                    </em>
+                    <p>
+                      <em>
+                        It is a company of accounting consultants; its main goal
+                        is to revolutionize the industry of accounting processes
+                        and electronic invoicing emerging in the country.
+                      </em>
+                    </p>
                   </p>
                   <p>
-                    I am developing a web-based ERP with React, NodeJs/Express,
-                    and MySQL. Also I am in charge of design and prototype the
-                    model of the project using Adobe Photoshop and Adobe XD.
-                    Additionally, I am maintaining and developing new
-                    characteristics to an electronic invoice system in VB .NET
-                    and MySQL.
+                    <p><em><strong>My work</strong></em></p>
+                    <em>
+                      Developing a web-based ERP, maintaining and developing new
+                      characteristics to an electronic invoice desktop system,
+                      learning concepts related to accounting, business and
+                      Peruvian national regulations.
+                    </em>
+                  </p>
+                  <p>
+                    <ul>
+                      <li>
+                        Participating in all the steps of the process of
+                        development of an ERP (Contatrib ERP - Mi factura Peru)
+                        from the analysis of the problem, user research,
+                        database modeling and creation of tables, functions,
+                        store procedures and triggers; API routes creation;
+                        designing and prototyping UI & UX and the front-end
+                        development. Using React JS, Node.JS/Express, MySQL,
+                        Adobe Photoshop and Adobe XD.
+                      </li>
+                      <li>
+                        Maintaining and developing new characteristics to a
+                        desktop app using VB .NET and MySQL that handles
+                        administrative functions needed to generate electronic
+                        invoices in a multi-business system.
+                      </li>
+                    </ul>
                   </p>
                 </div>
-                {/* <div class="resume-item">
-                  <h4>Front-End Developer</h4>
-                  <h5>May 2020</h5>
-                  <p>
-                    <em>Avalon, Remote</em>
-                  </p>
-                  <p>
-                    I worked remotely with Avalon team developing a
-                    multi-platform app using Ionic-React and Material UI for
-                    on-demand delivery, money transfer, business payments, and
-                    commercial services. There I created: Layout, Menu, Login,
-                    Sign Up, Password Recovery, User and Security.
-                  </p>
-                </div> */}
+
                 <h3 class="resume-title">Technical Skils</h3>
                 <div class="resume-item">
                   <div class="row justify-content-center">
@@ -136,10 +145,26 @@ const Resume = () => {
                     <Skills Name="MySQL"></Skills>
                     <Skills Name="UI/UX design"></Skills>
                     <Skills Name="Design Thinking"></Skills>
-                    <Skills Name="Copywriting"></Skills>
                     <Skills Name="Adobe XD"></Skills>
                     <Skills Name="Photoshop"></Skills>
                     <Skills Name="Kanban"></Skills>
+                  </div>
+                </div>
+
+                <h3 class="resume-title">Soft Skils</h3>
+                <div class="resume-item">
+                  <div class="row justify-content-center">
+                    <Skills Name="Honesty"></Skills>
+                    <Skills Name="Accountability"></Skills>
+                    <Skills Name="Teamwork"></Skills>
+                    <Skills Name="Problem solving"></Skills>
+                    <Skills Name="Patience"></Skills>
+                    <Skills Name="Proactive"></Skills>
+                    <Skills Name="Good communication"></Skills>
+                    <Skills Name="Empathy"></Skills>
+                    <Skills Name="Multi-tasking"></Skills>
+                    <Skills Name="Well-Organized"></Skills>
+                    <Skills Name="Quick learner"></Skills>
                   </div>
                 </div>
               </div>

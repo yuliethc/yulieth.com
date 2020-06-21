@@ -32,8 +32,7 @@ class About extends Component {
                   <h3> Front-End Developer</h3>
                   <p class="font-italic">
                     <p>
-                      I’m a venezuelan around the world. I develop innovative
-                      and accessible websites.
+                      I’m a venezuelan around the world. 
                     </p>
                   </p>
                   <div class="row">
@@ -74,8 +73,7 @@ class About extends Component {
                     </div>
                   </div>
                   <p>
-                    I have expertise in UI/UX design, design thinking and
-                    copywriting. I also design user interfaces and interactive
+                    I develop innovative and accessible websites. I also have experience in UI/UX, designing user interfaces and interactive
                     prototypes with high-quality strategic texts. Likewise, I am
                     passionate about Database management, from the creation of
                     the database structure diagram, tables and functions to
