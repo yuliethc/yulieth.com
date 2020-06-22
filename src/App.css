@@ -992,9 +992,9 @@ body {
     overflow: hidden;
     z-index: 1;
     background: rgba(34, 34, 34, 0.6);
-    
-    max-width: 350px;
-    max-height: 200px;
+    cursor: pointer;
+    max-width: 340px;
+    max-height: 220px;
   }
   
   .portfolio .portfolio-wrap::before {
