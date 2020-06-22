@@ -81,7 +81,7 @@ const Resume = () => {
                   </h4>
                   <h5>2018 - 2020</h5>
                   <p>
-                    <a href="https://platzi.com/@luboyulieth/">Platzi</a>
+                    <a href="https://platzi.com/@luboyulieth/" aria-label="Plazi courses Link">Platzi</a>
                   </p>
                 </div>
               </div>

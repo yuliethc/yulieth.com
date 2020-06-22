@@ -76,16 +76,23 @@ const Header = (props) => {
             href="https://www.linkedin.com/in/yulieth/"
             target="_blank"
             class="linkedin"
+            aria-label="Linkedin Link"
           >
             <i class="icofont-linkedin"></i>
           </a>
-          <a href="https://github.com/yuliethc" target="_blank" class="github">
+          <a 
+          href="https://github.com/yuliethc" 
+          target="_blank"
+          class="github"
+          aria-label="GitHub Link"
+          >
             <i class="icofont-github"></i>
           </a>
           <a
             href="https://www.behance.net/yulieth"
             target="_blank"
             class="behance"
+            aria-label="Behance Link"
           >
             <i class="icofont-behance"></i>
           </a>

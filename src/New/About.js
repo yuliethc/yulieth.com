@@ -61,7 +61,7 @@ class About extends Component {
                         <li>
                           <i class="icofont-rounded-right"></i>{" "}
                           <strong>Email:</strong>{" "}
-                          <a href="mailto:yuliethdotcom@gmail.com">
+                          <a href="mailto:yuliethdotcom@gmail.com" aria-label="Email">
                             yuliethdotcom@gmail.com
                           </a>
                         </li>
