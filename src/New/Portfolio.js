@@ -119,7 +119,7 @@ const projects = [
       "I worked remotely with Avalon team developing a multi-platform app using Ionic-React and Material UI for on-demand delivery, money transfer, business payments, and commercial services. There I created: Layout, Menu, Login, Sign Up, Password Recovery, User and Security.",
     Thumbnail: project9Thumbnail,
     URL: null,
-    TechUsed: ["Adobe Photoshop", "Adobe XD"],
+    TechUsed: ["Ionic-React", "Material-UI", "Subversion"],
     Category: "Development",
     Client: "Avalon",
     ImageSlides: [
