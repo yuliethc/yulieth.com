@@ -40,6 +40,10 @@ import project9Image2 from "./img/project9/Imagen2.png";
 import project9Image3 from "./img/project9/Imagen3.png";
 import project9Image4 from "./img/project9/Imagen4.png";
 import project9Image5 from "./img/project9/Imagen5.png";
+import project10Image1 from "./img/project10/1.png";
+import project10Image2 from "./img/project10/2.png";
+import project10Image3 from "./img/project10/3.png";
+import project10Image4 from "./img/project10/4.png";
 import Preloader from "./components/Preloader";
 import UpButton from "./components/UpButton";
 
@@ -113,6 +117,26 @@ const projects = [
   },
   {
     Id: 4,
+    Title: "The Citizen Journalist",
+    Subtitle: "Journalism and Storytelling platform",
+    Description:
+      "The client send me the wireframe made in Adobe XD and I develop the UI",
+    Thumbnail: project10Image1,
+    URL: "https://www.fiverr.com/yuliethc/convert-your-figma-adobe-xd-or-sketch-wireframes-to-reactjs",
+    TechUsed: ["React JS", "React - Bootstrap", "Bootstrap", "Styled - Components"],
+    Category: "Development",
+    Client: "Fiverr",
+    ImageSlides: [
+      project10Image1,
+      project10Image2,
+      project10Image3,
+      project10Image4,
+    ],
+    ProjectDate: "2020",
+    Filter: "filter-dev",
+  },
+  {
+    Id: 5,
     Title: "Delupar",
     Subtitle: "On-demand delivery and money transfer App",
     Description:
@@ -133,7 +157,7 @@ const projects = [
     Filter: "filter-dev",
   },
   {
-    Id: 5,
+    Id: 6,
     Title: "Contatrib ERP - Mi Factura Perú",
     Subtitle: "High Quality Wireframe",
     Description:
@@ -156,7 +180,7 @@ const projects = [
   },
 
   {
-    Id: 6,
+    Id: 7,
     Title: "Cupcake World",
     Subtitle: "Mobile App Landing Page",
     Description: "Mobile UI design and copywriting.",
@@ -171,7 +195,7 @@ const projects = [
     Filter: "filter-ux",
   },
   {
-    Id: 7,
+    Id: 8,
     Title: "Flick",
     Subtitle: "Movie social network and rating App",
     Description: "Movie social network and rating App design.",
@@ -185,7 +209,7 @@ const projects = [
     Filter: "filter-ux",
   },
   {
-    Id: 8,
+    Id: 9,
     Title: "Time…",
     Subtitle: "What is time?",
     Description:
@@ -200,7 +224,7 @@ const projects = [
     Filter: "filter-writing",
   },
   {
-    Id: 9,
+    Id: 10,
     Title: "My Pragmatic World",
     Subtitle: "English Book",
     Description: "I create an English book, here I show some of its content",

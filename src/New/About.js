@@ -17,10 +17,10 @@ class About extends Component {
             <div class="container" data-aos="fade-up">
               <div class="section-title">
                 <h2>About</h2>
-                <p>
+                {/* <p>
                   I design and develop experiences that make people's lives
                   simple.
-                </p>
+                </p> */}
               </div>
 
               <div class="row">

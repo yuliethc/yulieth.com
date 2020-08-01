@@ -36,7 +36,7 @@ const Resume = () => {
                             {" "}
                             A Software Developer specialized in Web development
                           </strong>{" "}
-                          with 1+ year of experience in full life cycle of
+                          with 1.5 + years of experience in full life cycle of
                           software, making responsive and accessible websites,
                           with an insatiable level of curiosity and constant
                           learning.
@@ -90,7 +90,7 @@ const Resume = () => {
 
                 <div class="resume-item">
                   <h4>Full Stack Developer</h4>
-                  <h5>Feb. 2019 - Present</h5>
+                  <h5>Feb. 2019 - Jul. 2020</h5>
                   <p>
                     <em>
                       <strong>Escobedo Medina Auditores Asociados, Perú</strong>
