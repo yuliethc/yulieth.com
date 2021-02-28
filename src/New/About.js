@@ -45,6 +45,10 @@ class About extends Component {
                         <li>
                           <i class="icofont-rounded-right"></i>{" "}
                           <strong>Phone:</strong> +58 416 96 88 400
+                        </li>3
+                        <li>
+                          <i class="icofont-rounded-right"></i>{" "}
+                          <strong>Nationality:</strong> Venezuelan
                         </li>
                          {/* <li>
                           <i class="icofont-rounded-right"></i>{" "}
@@ -64,10 +68,6 @@ class About extends Component {
                           <a href="mailto:yuliethdotcom@gmail.com" aria-label="Email">
                             yuliethdotcom@gmail.com
                           </a>
-                        </li>
-                        <li>
-                          <i class="icofont-rounded-right"></i>{" "}
-                          <strong>Nationality:</strong> Venezuelan
                         </li>
                       </ul>
                     </div>
