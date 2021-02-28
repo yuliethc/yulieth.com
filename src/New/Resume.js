@@ -70,7 +70,9 @@ const Resume = () => {
                       <li>yuliethdotcom@gmail.com</li>
                     </ul>
                   </p>
-    <h3 class="resume-title">Technical Skils</h3>
+  
+                </div>
+      <h3 class="resume-title">Technical Skils</h3>
                 <div class="resume-item">
                   <div class="row justify-content-center">
                     <Skills Name="React JS"></Skills>
@@ -86,7 +88,6 @@ const Resume = () => {
                     <Skills Name="Kanban"></Skills>
                     <Skills Name="Solcial Media Management"></Skills>
                   </div>
-                </div>
                 </div>
 
                 <h3 class="resume-title">Education</h3>
