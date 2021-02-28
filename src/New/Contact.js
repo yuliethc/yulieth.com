@@ -24,7 +24,7 @@ const Contact = () => {
                 <div class="address">
                   <i class="icofont-google-map"></i>
                   <h4>Location</h4>
-                  <p>Cajamarca, Perú</p>
+                  <p>Lazio, Italy</p>
                 </div>
                 <div class="address">
                   <a
@@ -67,7 +67,7 @@ const Contact = () => {
                 <div class="address">
                   <i class="icofont-phone"></i>
                   <h4>Phone number</h4>
-                  <p>+51 953 789 124</p>
+                  <p>+58 416 96 88 400</p>
                 </div>
 
                 <div class="address">
