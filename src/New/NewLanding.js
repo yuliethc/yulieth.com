@@ -14,7 +14,7 @@ const NewLanding = () => {
           >
             <h1>Yulieth Lubo</h1>
             <h1>de D'Agostini</h1>
-            <h2>Front-End Developer</h2>
+            <h2>Front-End Developer and Content Creator</h2>
             <Link to="/about" class="btn-about" aria-label="Go to About">
               About Me
             </Link>
