@@ -26,7 +26,7 @@ const Resume = () => {
                   <h4>
                     {" "}
                     <p>Yulieth Lubo de D'Agostini </p>Software Developer •
-                    Front-End • Full Stack{" "}
+                    Front-End • Content Creator{" "}
                   </h4>
                   <p>
                     <em>
@@ -34,18 +34,25 @@ const Resume = () => {
                         <li>
                           <strong>
                             {" "}
-                            A Software Developer specialized in Web development
+                            A Software Developer and Content Creator 
                           </strong>{" "}
-                          with 1.5 + years of experience in full life cycle of
-                          software, making responsive and accessible websites,
-                          with an insatiable level of curiosity and constant
-                          learning.
+                          2 + years of experience, an insatiable curiosity and constant learning.
                         </li>
                         <li>
-                          <strong> An analytical thinker</strong> and problem
-                          solver with demonstrated experience in designing,
-                          development tools and frameworks.
+                          <strong> Develop responsive and accessible websites</strong> 
+                           with demonstrated experience. 
                         </li>
+                        <li>
+                          <strong> 
+                            Experience in graphic design and good UX intuitions
+                         </strong> 
+                            </li>
+    
+                        <li>
+                          <strong> 
+                            Passionate about database management, photography and digital content creation.
+                         </strong> 
+                            </li>
                         <li>
                           <strong>Teamwork skills</strong>, well-organized,
                           manage activities and delivery times efficiently;
@@ -59,7 +66,7 @@ const Resume = () => {
                   </p>
                   <p>
                     <ul>
-                      <li>+51 953 789 124</li>
+                      <li>+58 96 88 400</li>
                       <li>yuliethdotcom@gmail.com</li>
                     </ul>
                   </p>
@@ -88,6 +95,25 @@ const Resume = () => {
               <div class="col-lg-6">
                 <h3 class="resume-title">Professional Experience</h3>
 
+                <div class="resume-item">
+                  <h4>Front-End Developer and Content Creator</h4>
+                  <h5>Jul. 2020 - Dic. 2020</h5>
+                  <p>
+                    <em>
+                      <strong>Freelance</strong>
+                    </em>
+                    
+                  </p>
+                  <p>
+                    <p><em><strong>My work</strong></em></p>
+                    <em>
+                      Working as Independent developing Front-End websites using React JS, HTML and CSS. Also, creating digital content using graphic design, photography, writing, copywriting and social media management
+                    </em>
+                  </p>
+                  
+                </div>
+  
+    
                 <div class="resume-item">
                   <h4>Full Stack Developer</h4>
                   <h5>Feb. 2019 - Jul. 2020</h5>
@@ -148,6 +174,7 @@ const Resume = () => {
                     <Skills Name="Adobe XD"></Skills>
                     <Skills Name="Photoshop"></Skills>
                     <Skills Name="Kanban"></Skills>
+                    <Skills Name="Solcial Media Management"></Skills>
                   </div>
                 </div>
 
