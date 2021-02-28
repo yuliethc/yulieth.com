@@ -31,9 +31,9 @@ class About extends Component {
                   <h3>Yulieth Lubo de D'Agistini. </h3>
                   <h3> Front-End Developer and Content Creator</h3>
                   <p class="font-italic">
-                    <p>
+                   {/* <p>
                       I’m a venezuelan around the world. 
-                    </p>
+                    </p> */}
                   </p>
                   <div class="row">
                     <div class="col-lg-6">
@@ -44,12 +44,12 @@ class About extends Component {
                         </li>
                         <li>
                           <i class="icofont-rounded-right"></i>{" "}
-                          <strong>Phone:</strong> +51 953 789 124
+                          <strong>Phone:</strong> +58 416 96 88 400
                         </li>
-                        <li>
+                         {/* <li>
                           <i class="icofont-rounded-right"></i>{" "}
                           <strong>Age:</strong> 29
-                        </li>
+                        </li> */}
                       </ul>
                     </div>
                     <div class="col-lg-6">
@@ -67,7 +67,7 @@ class About extends Component {
                         </li>
                         <li>
                           <i class="icofont-rounded-right"></i>{" "}
-                          <strong>Freelance:</strong> Available
+                          <strong>Nationality:</strong> Venezuelan
                         </li>
                       </ul>
                     </div>
