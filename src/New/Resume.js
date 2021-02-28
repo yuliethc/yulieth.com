@@ -70,6 +70,23 @@ const Resume = () => {
                       <li>yuliethdotcom@gmail.com</li>
                     </ul>
                   </p>
+    <h3 class="resume-title">Technical Skils</h3>
+                <div class="resume-item">
+                  <div class="row justify-content-center">
+                    <Skills Name="React JS"></Skills>
+                    <Skills Name="HTML"></Skills>
+                    <Skills Name="CSS"></Skills>
+                    <Skills Name="Git"></Skills>
+                    <Skills Name="Web Accessibility"></Skills>
+                    <Skills Name="MySQL"></Skills>
+                    <Skills Name="UI/UX design"></Skills>
+                    <Skills Name="Design Thinking"></Skills>
+                    <Skills Name="Adobe XD"></Skills>
+                    <Skills Name="Photoshop"></Skills>
+                    <Skills Name="Kanban"></Skills>
+                    <Skills Name="Solcial Media Management"></Skills>
+                  </div>
+                </div>
                 </div>
 
                 <h3 class="resume-title">Education</h3>
@@ -162,23 +179,7 @@ const Resume = () => {
                   </p>
                 </div>
 
-                <h3 class="resume-title">Technical Skils</h3>
-                <div class="resume-item">
-                  <div class="row justify-content-center">
-                    <Skills Name="React JS"></Skills>
-                    <Skills Name="HTML"></Skills>
-                    <Skills Name="CSS"></Skills>
-                    <Skills Name="Git"></Skills>
-                    <Skills Name="Web Accessibility"></Skills>
-                    <Skills Name="MySQL"></Skills>
-                    <Skills Name="UI/UX design"></Skills>
-                    <Skills Name="Design Thinking"></Skills>
-                    <Skills Name="Adobe XD"></Skills>
-                    <Skills Name="Photoshop"></Skills>
-                    <Skills Name="Kanban"></Skills>
-                    <Skills Name="Solcial Media Management"></Skills>
-                  </div>
-                </div>
+                
 
                 <h3 class="resume-title">Soft Skils</h3>
                 <div class="resume-item">
