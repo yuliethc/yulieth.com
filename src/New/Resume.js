@@ -21,7 +21,7 @@ const Resume = () => {
 
             <div class="row">
               <div class="col-lg-6">
-                <h3 class="resume-title">Sumary</h3>
+                <h3 class="resume-title">Summary</h3>
                 <div class="resume-item pb-0">
                   <h4>
                     {" "}
