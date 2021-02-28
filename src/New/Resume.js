@@ -36,11 +36,11 @@ const Resume = () => {
                             {" "}
                             A Software Developer and Content Creator 
                           </strong>{" "}
-                          2 + years of experience, an insatiable curiosity and constant learning.
+                          with 2 + years of experience, an insatiable curiosity and constant learning.
                         </li>
                         <li>
                           <strong> Develop responsive and accessible websites</strong> 
-                           with demonstrated experience. 
+                          {" "} with demonstrated experience. 
                         </li>
                         <li>
                           <strong> 
@@ -107,7 +107,9 @@ const Resume = () => {
                   <p>
                     <p><em><strong>My work</strong></em></p>
                     <em>
-                      Working as Independent developing Front-End websites using React JS, HTML and CSS. Also, creating digital content using graphic design, photography, writing, copywriting and social media management
+                      Working as Independent developing Front-End websites using React JS,
+    HTML and CSS. Also, creating digital content using graphic design, photography, 
+    writing, copywriting and social media management.
                     </em>
                   </p>
                   
