@@ -29,7 +29,7 @@ class About extends Component {
                 </div>
                 <div class="col-lg-8 pt-3 pt-lg-0 mt-4 content">
                   <h3>Yulieth Lubo de D'Agistini. </h3>
-                  <h3> Front-End Developer</h3>
+                  <h3> Front-End Developer and Content Creator</h3>
                   <p class="font-italic">
                     <p>
                       I’m a venezuelan around the world. 
