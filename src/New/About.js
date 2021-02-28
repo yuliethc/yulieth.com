@@ -73,11 +73,11 @@ class About extends Component {
                     </div>
                   </div>
                   <p>
-                    I develop innovative and accessible websites. I also have experience in UI/UX, designing user interfaces and interactive
-                    prototypes with high-quality strategic texts. Likewise, I am
-                    passionate about Database management, from the creation of
-                    the database structure diagram, tables and functions to
-                    stored procedures.
+      2 + years of experience, an insatiable curiosity and constant learning.
+      Develop responsive and accessible websites.
+      Experience in graphic design and good UX intuitions.
+      Passionate about database management, photography and digital content creation.
+      Teamwork skills, well-organized, manage activities and delivery times efficiently.
                   </p>
                 </div>
               </div>
