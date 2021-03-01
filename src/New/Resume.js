@@ -66,7 +66,7 @@ const Resume = () => {
                   </p>
                   <p>
                     <ul>
-                      <li>+58 96 88 400</li>
+                      <li>+58 416 96 88 400</li>
                       <li>yuliethdotcom@gmail.com</li>
                     </ul>
                   </p>
