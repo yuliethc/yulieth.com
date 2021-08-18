@@ -26,34 +26,42 @@ const PrincipalImage = styled.img`
   pointer-events: none;
 `;
 const CentralPhoto = styled.img`
-  height: 50%;
- 
+  height: 300px;
 `;
 
 const ReLanding = () => {
   return (
     <PrincipalContainer>
       <HomeContainer>
-        <Header></Header>
+        <Header style={{backgroundColor:"red"}}>
+       
+        </Header>
+        <div className="h-100 w-100 m-0 p-0 overflow-auto" style={{position:"relative"}}>
         <PrincipalImage src={ImageHeader}></PrincipalImage>
-        <Container className="h-100 w-100 m-0 p-0">
-          <Row className="h-100 w-100 m-0 p-0">
-            <Col xs={6} md={6} 
-            className="
-            h-100 
-            w-100 
-            m-0 p-0
-            d-flex
-            justify-content-center
-            align-items-center
-            " >
-             <CentralPhoto src={Photo} alt=""/>
+          <Row className="h-100 m-0 p-0 text-light align-items-center justify-content-center align-content-center">
+            <Col
+              
+              className="m-0 p-0 d-flex justify-content-md-center align-items-md-center justify-content-lg-center align-items-lg-center align-items-sm-start justify-content-sm-center"
+            >
+              <CentralPhoto src={Photo} alt="" />
             </Col>
-            <Col xs={6} md={6} className="h-100 w-100 m-0 p-0">
-              right
+            
+            <Col
+           
+              className="m-0 p-0 d-flex flex-column align-items-start justify-content-center"
+            >
+              
+                <h6>Hello I'm</h6>
+                <h1>Yulieth Lubo</h1>
+                <h5>Front - End Developer & Digital Creator</h5>
+                <StyledButton Title="Contact me"></StyledButton>
+             
             </Col>
           </Row>
-        </Container>
+          <Row className="m-0 p-0 flex-md-wrap">
+            second
+            </Row>
+        </div>
       </HomeContainer>
       {/* <StyledButton Title="Contact me"></StyledButton> */}
     </PrincipalContainer>

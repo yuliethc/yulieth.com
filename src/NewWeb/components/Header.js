@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Navbar, Nav } from "react-bootstrap";
 import styled from "styled-components";
+import ImageHeader from "../img/fondototal1.png";
 
 class Header extends Component {
   render() {
@@ -11,7 +12,7 @@ class Header extends Component {
           collapseOnSelect
           expand="lg"
           sticky="top"
-          style={{ height: "60px", width: "100%", justifyContent:"space-between", paddingLeft:"50px", paddingRight:"50px"}}
+          style={{ height: "60px", width: "100%", justifyContent:"space-between", paddingLeft:"50px", paddingRight:"50px", backgroundImage:`url(${ImageHeader})`}}
         >
           <Navbar.Brand href="/main" style={{ fontSize: "23px" }}>
             Yulieth Lubo
