@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./components/Header";
 import StyledButton from "./components/StyledButton";
 import ImageHeader from "./img/fondototal1.png";
+import Photo from "./img/photo.png";
 import styled from "styled-components";
 import { Col, Container, Row } from "react-bootstrap";
 
@@ -24,6 +25,10 @@ const PrincipalImage = styled.img`
   position: absolute;
   pointer-events: none;
 `;
+const CentralPhoto = styled.img`
+  height: 50%;
+ 
+`;
 
 const ReLanding = () => {
   return (
@@ -33,8 +38,16 @@ const ReLanding = () => {
         <PrincipalImage src={ImageHeader}></PrincipalImage>
         <Container className="h-100 w-100 m-0 p-0">
           <Row className="h-100 w-100 m-0 p-0">
-            <Col xs={6} md={6} className="h-100 w-100 m-0 p-0" >
-              left
+            <Col xs={6} md={6} 
+            className="
+            h-100 
+            w-100 
+            m-0 p-0
+            d-flex
+            justify-content-center
+            align-items-center
+            " >
+             <CentralPhoto src={Photo} alt=""/>
             </Col>
             <Col xs={6} md={6} className="h-100 w-100 m-0 p-0">
               right
